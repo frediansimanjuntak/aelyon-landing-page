@@ -37,13 +37,6 @@
         <link rel="stylesheet" href="css/style.css" />
         <!-- responsive -->
         <link rel="stylesheet" href="css/responsive.css" />
-        <!--[if IE]>
-            <link rel="stylesheet" href="css/style-ie.css" />
-        <![endif]-->
-        <!--[if IE]>
-            <script src="js/html5shiv.js"></script>
-        <![endif]-->
-
     </head>
     <body>
         <!-- navigation panel -->
@@ -53,325 +46,62 @@
                     <!-- logo -->
                     <div class="col-md-2 pull-left"><a class="logo-light" href="index.html"><img alt="" src="images/aelyon-white.png" class="logo" /></a><a class="logo-dark" href="index.html"><img alt="" src="images/aelyon.png" class="logo" /></a></div>
                     <!-- end logo -->
-                    <!-- search and cart  -->
-                    <div class="col-md-2 no-padding-left search-cart-header pull-right">
-                        <div id="top-search">
-                            <!-- nav search -->
-                            <a href="#search-header" class="header-search-form"><i class="fa fa-search search-button"></i></a>
-                            <!-- end nav search -->
-                        </div>
-                        <!-- search input-->
-                        <form id="search-header" method="post" action="#" name="search-header" class="mfp-hide search-form-result">
-                            <div class="search-form position-relative">
-                                <button type="submit" class="fa fa-search close-search search-button"></button>
-                                <input type="text" name="search" class="search-input" placeholder="Enter your keywords..." autocomplete="off">
-                            </div>
-                        </form>
-                        <!-- end search input -->
-                        <div class="top-cart">
-                            <!-- nav shopping bag -->
-                            <!-- <a href="#" class="shopping-cart">
-                                <i class="fa fa-shopping-cart"></i>
-                                <div class="subtitle">(1) Items</div>
-                            </a> -->
-                            <!-- end nav shopping bag -->
-                            <!-- shopping bag content -->
-                            <div class="cart-content">
-                                <ul class="cart-list">
-                                    <li>
-                                        <a title="Remove item" class="remove" href="#">×</a>
-                                        <a href="#">
-                                            <img width="90" height="90" alt="" src="http://placehold.it/90x90">Leather Craft
-                                        </a>
-                                        <span class="quantity">1 × <span class="amount">$160</span></span>
-                                        <a href="#">Edit</a>
-                                    </li>
-                                </ul>
-                                <p class="total">Subtotal: <span class="amount">$160</span></p>
-                                <p class="buttons">
-                                    <a href="shop-cart.html" class="btn btn-very-small-white no-margin-bottom margin-seven pull-left no-margin-lr">View Cart</a>
-                                    <a href="shop-checkout.html" class="btn btn-very-small-white no-margin-bottom margin-seven no-margin-right pull-right">Checkout</a>
-                                </p>
-                            </div>
-                            <!-- end shopping bag content -->
-                        </div>
-                    </div>
-                    <!-- end search and cart  -->
                     <!-- toggle navigation -->
                     <div class="navbar-header col-sm-8 col-xs-2 pull-right">
                         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
                     </div>
                     <!-- toggle navigation end -->
                     <!-- main menu -->
-                    <div class="col-md-8 no-padding-right accordion-menu text-white text-right">
+                    <div class="col-md-9 no-padding-right accordion-menu text-white text-right">
                         <div class="navbar-collapse collapse">
                             <ul id="accordion" class="nav navbar-nav navbar-right panel-group">
                                 <!-- menu item -->
                                 <li class="dropdown panel">
-                                    <a href="#collapse1" class="dropdown-toggle collapsed" data-toggle="collapse" data-parent="#accordion" data-hover="dropdown">Home <i class="fa fa-angle-down"></i></a>
+                                    <a href="#home">Home <i class="fa fa-angle-down"></i></a>
                                     <!-- sub menu -->
-                                    <ul id="collapse1" class="dropdown-menu mega-menu panel-collapse collapse mega-menu-full">
-                                        <!-- sub menu column  -->
-                                        <li class="mega-menu-column col-sm-3">
-                                            <!-- sub menu item  -->
-                                            <ul>
-                                                <li class="dropdown-header">Pre Made Homepage</li>
-                                                <li><a href="index.html">Home main</a></li>
-                                                <li><a href="home-fashion.html">Home fashion</a></li>
-                                                <li><a href="home-architecture.html">Home architecture</a></li>
-                                                <li><a href="home-spa.html">Home spa</a></li>
-                                                <li><a href="home-agency.html">Home agency</a></li>
-                                                <li><a href="home-restaurant.html">Home restaurant</a></li>
-                                                <li><a href="home-travel-agency.html">Home travel agency</a></li>
-                                                <li><a href="home-corporate.html">Home corporate</a></li>
-                                                <li><a href="home-photography.html">Home photography</a></li>
-
-                                                <li><a href="home-shop.html">Home shop</a></li>
-                                                <li><a href="home-blog.html">Home blog</a></li>
-                                                <li><a href="home-blog-grid.html">Home blog grid</a></li>
-                                            </ul>
-                                            <!-- end sub menu item  -->
-                                        </li>
-                                        <!-- sub menu column end -->
-                                        <!-- sub menu column -->
-                                        <li class="mega-menu-column col-sm-3">
-                                            <!-- sub menu item  -->
-                                            <ul>
-                                                <li class="dropdown-header">Other</li>
-                                                <li><a href="home-masonry-portfolio.html">Home - masonry portfolio</a></li>
-                                                <li><a href="home-background-slider.html">Home - background slider</a></li>
-                                                <li><a href="home-full-screen-video.html">Home - full screen video</a></li>
-                                                <li><a href="home-half-screen-video.html">Home - half screen video</a></li>
-                                                <li><a href="home-text-rotator.html">Home - text rotator</a></li>
-                                                <li><a href="home-countdown-timer.html">Home - coming soon</a></li>
-                                                <li><a href="home-countdown-timer-animation.html">Home - coming soon (Animation) <span class="menu-new">new</span></a></li>
-                                                <li><a href="home-countdown-timer-video.html">Home - coming soon (video)</a></li>
-                                                <li><a href="home-full-width-image.html">Home - full width image</a></li>
-                                                <li><a href="home-gradient-with-image.html">Home - gradient with image</a></li>
-                                            </ul>
-                                            <!-- end sub menu item  -->
-                                        </li>
-                                        <!-- end sub menu column  -->
-                                        <!-- sub menu column  -->
-                                        <li class="mega-menu-column col-sm-3">
-                                            <!-- sub menu item  -->
-                                            <ul>
-                                                <li class="dropdown-header">Parallax Image / Typography</li>
-                                                <li><a href="home-parallax1.html">Parallax Image - option 1 </a></li>
-                                                <li><a href="home-parallax2.html">Parallax Image - option 2</a></li>
-                                                <li><a href="home-parallax3.html">Parallax Image - option 3 </a></li>
-                                                <li><a href="home-parallax4.html">Parallax Image - option 4</a></li>
-                                                <li><a href="home-parallax5.html">Parallax Image - option 5</a></li>
-                                                <li><a href="home-parallax.html">Full parallax home page</a></li>
-                                            </ul>
-                                            <!-- end sub menu item  -->
-                                            <!-- sub menu item  -->
-                                            <ul>
-                                                <li class="dropdown-header">Carousel slider</li>
-                                                <li><a href="home-slider-bootstrap.html">Bootstrap slider - full screen</a></li>
-                                                <li><a href="home-slider-revolution1.html">Revolution slider - full screen</a></li>
-                                                <li><a href="home-slider-revolution2.html">Revolution slider - half screen</a></li>
-                                                <li><a href="home-slider-owl1.html">owl slider - full screen</a></li>
-                                                <li><a href="home-slider-owl2.html">owl slider - half screen</a></li>
-                                            </ul>
-                                            <!-- end sub menu item  -->
-                                        </li>
-                                        <!-- end sub menu column  -->
-                                        <!-- sub menu column  -->
-                                        <li class="mega-menu-column col-sm-3">
-                                            <!-- sub menu item  -->
-                                            <ul>
-                                                <li class="dropdown-header">Creative Intro Pages</li>
-                                                <li><a href="intro-fashion.html">Fashion Intro</a></li>
-                                                <li><a href="intro-restaurant.html">Restaurant Intro</a></li>
-                                                <li><a href="intro-travel.html">Travel Intro</a></li>
-                                                <li><a href="intro-travel2.html">Travel Intro - V2</a></li>
-                                                <li><a href="intro-agency.html">Agency Intro</a></li>
-                                                <li><a href="intro-agency2.html">Agency Intro - V2</a></li>
-                                                <li><a href="intro-product.html">Product Intro</a></li>
-                                            </ul>
-                                            <!-- end sub menu item  -->
-                                        </li>
-                                        <!-- end sub menu column  -->
-                                    </ul>
+                                    <!-- <ul id="collapse1" class="dropdown-menu mega-menu panel-collapse collapse mega-menu-full"> -->
+                                    <!-- </ul> -->
                                     <!-- end sub menu -->
                                 </li>
                                 <!-- end menu item -->
                                 <!-- menu item -->
                                 <li class="dropdown panel">
-                                    <a href="#collapse2" class="dropdown-toggle collapsed" data-toggle="collapse" data-parent="#accordion" data-hover="dropdown">About<i class="fa fa-angle-down"></i></a>
+                                    <a href="#about-us">About<i class="fa fa-angle-down"></i></a>
                                     <!-- sub menu -->
-                                    <ul id="collapse2" class="dropdown-menu mega-menu panel-collapse collapse mega-menu-full">
-                                        <li class="mega-menu-column col-sm-3">
-                                            <!-- sub menu item  -->
-                                            <ul>
-                                                <li class="dropdown-header">Pre Made Homepage</li>
-                                                <li><a href="onepage-bootstrap-slider.html">Home main</a></li>
-                                                <li><a href="onepage-fashion.html">Home fashion</a></li>
-                                                <li><a href="onepage-architecture.html">Home architecture</a></li>
-                                                <li><a href="onepage-spa.html">Home spa</a></li>
-                                                <li><a href="onepage-agency.html">Home agency</a></li>
-                                                <li><a href="onepage-agency-option2.html">Home agency - option 2 <span class="menu-new">new</span></a></li>
-                                                <li><a href="onepage-restaurant.html">Home restaurant</a></li>
-                                                <li><a href="onepage-travel-agency.html">Home travel agency</a></li>
-                                                <li><a href="onepage-corporate.html">Home corporate</a></li>
-                                                <li><a href="onepage-personal.html">Home personal</a></li>
-                                                <li><a href="onepage-wedding.html">Home wedding</a></li>
-                                                <li><a href="onepage-landing.html">Landing page</a></li>
-                                            </ul>
-                                            <!-- end sub menu item  -->
-                                        </li>
-                                        <li class="mega-menu-column col-sm-3">
-                                            <!-- sub menu item  -->
-                                            <ul>
-                                                <li class="dropdown-header">Parallax Image / Typography</li>
-                                                <li><a href="onepage-parallax1.html">Parallax Image - option 1 </a></li>
-                                                <li><a href="onepage-parallax2.html">Parallax Image - option 2</a></li>
-                                                <li><a href="onepage-parallax3.html">Parallax Image - option 3 </a></li>
-                                                <li><a href="onepage-parallax4.html">Parallax Image - option 4</a></li>
-                                                <li><a href="onepage-parallax5.html">Parallax Image - option 5</a></li>
-                                            </ul>
-                                            <!-- end sub menu item  -->
-                                        </li>
-                                        <li class="mega-menu-column col-sm-3">
-                                            <!-- sub menu item  -->
-                                            <ul>
-                                                <li class="dropdown-header">Other</li>
-                                                <li><a href="onepage-masonry-portfolio.html">Home - masonry portfolio</a></li>
-                                                <li><a href="onepage-background-slider.html">Home - background slider</a></li>
-                                                <li><a href="onepage-full-screen-video.html">Home - full screen video</a></li>
-                                                <li><a href="onepage-text-rotator.html">Home - text rotator</a></li>
-                                                <li><a href="onepage-full-width-image.html">Home - full width image</a></li>
-                                            </ul>
-                                            <!-- end sub menu item  -->
-                                        </li>
-                                        <li class="mega-menu-column col-sm-3">
-                                            <!-- sub menu item  -->
-                                            <ul>
-                                                <li class="dropdown-header">Carousel slider</li>
-                                                <li><a href="onepage-bootstrap-slider.html">Bootstrap slider - full screen</a></li>
-                                                <li><a href="onepage-slider-revolution1.html">Revolution slider - full screen</a></li>
-                                                <li><a href="onepage-slider-revolution2.html">Revolution slider - half screen</a></li>
-                                                <li><a href="onepage-slider-owl1.html">owl slider - full screen</a></li>
-                                                <li><a href="onepage-slider-owl2.html">owl slider - half screen</a></li>
-                                            </ul>
-                                            <!-- end sub menu item  -->
-                                        </li>
-                                    </ul>
+                                    <!-- <ul id="collapse2" class="dropdown-menu mega-menu panel-collapse collapse mega-menu-full">
+                                        
+                                    </ul> -->
                                     <!-- end sub menu -->
                                 </li>
                                 <!-- end menu item -->
                                 <!-- menu item -->
                                 <li class="dropdown panel">
-                                    <a href="#collapse5" class="dropdown-toggle collapsed" data-toggle="collapse" data-parent="#accordion" data-hover="dropdown">Portfolio <i class="fa fa-angle-down"></i></a>
+                                    <a href="#portfolio">Portfolio<i class="fa fa-angle-down"></i></a>
                                     <!-- sub menu -->
-                                    <ul id="collapse5" class="dropdown-menu mega-menu panel-collapse collapse mega-menu-full">
-                                        <li class="mega-menu-column col-sm-3">
-                                            <!-- sub menu item  -->
-                                            <ul>
-                                                <li class="dropdown-header">Grid</li>
-                                                <li><a href="portfolio-grid-2columns.html">2 Columns</a></li>
-                                                <li><a href="portfolio-grid-3columns.html">3 Columns</a></li>
-                                                <li><a href="portfolio-grid-4columns.html">4 Columns</a></li>
-                                                <li><a href="portfolio-grid-5columns.html">5 Columns</a></li>
-                                            </ul>
-                                            <!-- end sub menu item  -->
-                                            <!-- sub menu item  -->
-                                            <ul>
-                                                <li class="dropdown-header">Grid - Gutter</li>
-                                                <li><a href="portfolio-grid-gutter-2columns.html">2 Columns</a></li>
-                                                <li><a href="portfolio-grid-gutter-3columns.html">3 Columns</a></li>
-                                                <li><a href="portfolio-grid-gutter-4columns.html">4 Columns</a></li>
-                                                <li><a href="portfolio-grid-gutter-5columns.html">5 Columns</a></li>
-                                            </ul>
-                                            <!-- end sub menu item  -->
-                                            <!-- sub menu item  -->
-                                            <ul>
-                                                <li class="dropdown-header">Grid with Title</li>
-                                                <li><a href="portfolio-grid-with-title-2columns.html">2 Columns</a></li>
-                                                <li><a href="portfolio-grid-with-title-3columns.html">3 Columns</a></li>
-                                                <li><a href="portfolio-grid-with-title-4columns.html">4 Columns</a></li>
-                                                <li><a href="portfolio-grid-with-title-5columns.html">5 Columns</a></li>
-                                            </ul>
-                                            <!-- end sub menu item  -->
-                                        </li>
-                                        <li class="mega-menu-column col-sm-3">
-                                            <!-- sub menu item  -->
-                                            <ul>
-                                                <li class="dropdown-header">Wide</li>
-                                                <li><a href="portfolio-wide-2columns.html">2 Columns</a></li>
-                                                <li><a href="portfolio-wide-3columns.html">3 Columns</a></li>
-                                                <li><a href="portfolio-wide-4columns.html">4 Columns</a></li>
-                                                <li><a href="portfolio-wide-5columns.html">5 Columns</a></li>
-                                            </ul>
-                                            <!-- end sub menu item  -->
-                                            <!-- sub menu item  -->
-                                            <ul>
-                                                <li class="dropdown-header">Wide - Gutter</li>
-                                                <li><a href="portfolio-wide-gutter-2columns.html">2 Columns</a></li>
-                                                <li><a href="portfolio-wide-gutter-3columns.html">3 Columns</a></li>
-                                                <li><a href="portfolio-wide-gutter-4columns.html">4 Columns</a></li>
-                                                <li><a href="portfolio-wide-gutter-5columns.html">5 Columns</a></li>
-                                            </ul>
-                                            <!-- end sub menu item  -->
-                                            <!-- sub menu item  -->
-                                            <ul>
-                                                <li class="dropdown-header">Wide with Title</li>
-                                                <li><a href="portfolio-wide-with-title-2columns.html">2 Columns</a></li>
-                                                <li><a href="portfolio-wide-with-title-gutter-3columns.html">3 Columns</a></li>
-                                                <li><a href="portfolio-wide-with-title-gutter-4columns.html">4 Columns</a></li>
-                                                <li><a href="portfolio-wide-with-title-gutter-5columns.html">5 Columns</a></li>
-                                            </ul>
-                                            <!-- sub menu item  -->
-                                        </li>
-                                        <li class="mega-menu-column col-sm-3">
-                                            <!-- sub menu item  -->
-                                            <ul>
-                                                <li class="dropdown-header">Masonry</li>
-                                                <li><a href="portfolio-masonry-2columns.html">2 Columns</a></li>
-                                                <li><a href="portfolio-masonry-3columns.html">3 Columns</a></li>
-                                                <li><a href="portfolio-masonry-4columns.html">4 Columns</a></li>
-                                                <li><a href="portfolio-masonry-5columns.html">5 Columns</a></li>
-                                            </ul>
-                                            <!-- end sub menu item  -->
-                                            <!-- sub menu item  -->
-                                            <ul>
-                                                <li class="dropdown-header">Other</li>
-                                                <li><a href="portfolio-parallax.html">Parallax</a></li>
-                                                <li><a href="portfolio-short-description.html">With Short Description</a></li>
-                                                <li><a href="portfolio-lightbox.html">Portfolio lightbox</a></li>
-                                            </ul>
-                                            <!-- end sub menu item  -->
-                                        </li>
-                                        <li class="mega-menu-column col-sm-3">
-                                            <!-- sub menu item  -->
-                                            <ul>
-                                                <li class="dropdown-header">Single Project Page</li>
-                                                <li><a href="single-project-page1.html">Single Project Page 1</a></li>
-                                                <li><a href="single-project-page2.html">Single Project Page 2</a></li>
-                                                <li><a href="single-project-page3.html">Single Project Page 3</a></li>
-                                                <li><a href="single-project-page4.html">Single Project Page 4</a></li>
-                                                <li><a href="single-project-page5.html">Single Project Page 5</a></li>
-                                            </ul>
-                                            <!-- end sub menu item  -->
-                                            <!-- sub menu item  -->
-                                            <ul>
-                                                <li class="dropdown-header">Ajax - Project Page</li>
-                                                <li><a href="onepage-single-project-page1.html" class="simple-ajax-popup-align-top">Single Project Page 1</a></li>
-                                                <li><a href="onepage-single-project-page2.html" class="simple-ajax-popup-align-top">Single Project Page 2</a></li>
-                                                <li><a href="onepage-single-project-page3.html" class="simple-ajax-popup-align-top">Single Project Page 3</a></li>
-                                                <li><a href="onepage-single-project-page4.html" class="simple-ajax-popup-align-top">Single Project Page 4</a></li>
-                                                <li><a href="onepage-single-project-page5.html" class="simple-ajax-popup-align-top">Single Project Page 5</a></li>
-                                            </ul>
-                                            <!-- end sub menu item  -->
-                                        </li>
-                                    </ul>
+                                    <!-- <ul id="collapse2" class="dropdown-menu mega-menu panel-collapse collapse mega-menu-full">
+                                        
+                                    </ul> -->
                                     <!-- end sub menu -->
                                 </li>
                                 <!-- end menu item -->
                                 <!-- menu item -->
                                 <li class="dropdown panel">
-                                    <a href="#service" class="dropdown-toggle collapsed" data-toggle="collapse" data-parent="#accordion" data-hover="dropdown">Service <i class="fa fa-angle-down"></i></a>
+                                    <a href="#services">Services <i class="fa fa-angle-down"></i></a>
+                                    <!-- sub menu -->
+                                    <!-- <ul id="collapse5" class="dropdown-menu mega-menu panel-collapse collapse mega-menu-full">
+                                        
+                                    </ul> -->
+                                    <!-- end sub menu -->
+                                </li>
+                                <!-- end menu item -->
+                                <!-- menu item -->
+                                <li class="dropdown panel">
+                                    <a href="#teams">Teams <i class="fa fa-angle-down"></i></a>
+                                </li>
+                                <!-- end menu item -->
+                                <!-- menu item -->
+                                <li class="dropdown panel">
+                                    <a href="#history">History <i class="fa fa-angle-down"></i></a>
                                 </li>
                                 <!-- end menu item -->
                             </ul>
@@ -383,7 +113,7 @@
         </nav>
         <!-- end navigation panel -->
         <!-- slider -->
-        <section id="slider" class="no-padding">
+        <section id="home" class="no-padding">
             <div id="owl-demo" class="owl-carousel owl-theme light-pagination square-pagination dark-pagination-without-next-prev-arrow main-slider">
                 <!-- slider item -->
                 <div class="item owl-bg-img" style="background-image:url('images/programming-2.jpg');">
@@ -434,10 +164,10 @@
         </section>
         <!-- end slider -->
         <!-- about section -->
-        <section class="no-padding-bottom wow fadeIn">
+        <section id="about-us" class="no-padding-bottom wow fadeIn">
             <div class="container">
                 <div class="row">
-                    <span class="margin-five no-margin-top display-block letter-spacing-2 text-center">EST. 2011</span>
+                    <span class="margin-five no-margin-top display-block letter-spacing-2 text-center">EST. 2016</span>
                     <div class="col-md-6 col-sm-10 text-left left-col">
                         <h1>Software House and Application Developer</h1>
                         <p class="text-med width-90 center-col margin-seven no-margin-bottom"> 
@@ -449,14 +179,14 @@
                         </p>
                     </div>
                     <div class="col-md-6 col-sm-10 text-center right-col">
-                        <img src="images/vector-700px.jpg" alt="">                        
+                        <img src="images/vector-700px.jpg">                        
                     </div>
                 </div>
             </div>
             <div class="container-fluid margin-five no-margin-bottom">
                 <div class="row">
                     <div class="col-md-12 col-sm-12 col-xs-12 bg-dark-blues padding-three text-center">
-                        <span class="text-small text-uppercase font-weight-600 white-text letter-spacing-2">Web Design &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;/&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Graphics &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;/&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Magento &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;/&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; WordPress &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;/&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Applications</span>
+                        <span class="text-small text-uppercase font-weight-600 white-text letter-spacing-2">Web Development &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;/&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Mobile Development &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;/&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Training &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;/&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Software &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;/&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Applications</span>
                     </div>
                 </div>
             </div>
@@ -552,7 +282,7 @@
                     <div class="col-md-3 col-sm-6 bottom-margin text-center counter-section wow fadeInUp sm-margin-bottom-ten" data-wow-duration="300ms">
                         <i class="icon-heart medium-icon"></i>
                         <span class="timer counter-number white-text main-font font-weight-600" data-to="516" data-speed="7000"></span>
-                        <span class="counter-title light-gray-text">Pizzas Ordered</span>
+                        <span class="counter-title light-gray-text">Project Ordered</span>
                     </div>
                     <!-- end counter item -->
                     <!-- counter item -->
@@ -604,10 +334,10 @@
                             <!-- filter navigation -->
                             <ul class="portfolio-filter nav nav-tabs">
                                 <li class="nav active"><a href="#" data-filter="*">All</a></li>
-                                <li class="nav"><a href="#" data-filter=".magento">Magento</a></li>
-                                <li class="nav"><a href="#" data-filter=".jquery">Jquery</a></li>
-                                <li class="nav"><a href="#" data-filter=".wordpress">Wordpress</a></li>
-                                <li class="nav"><a href="#" data-filter=".html">HTML</a></li>
+                                <li class="nav"><a href="#" data-filter="*">Training</a></li>
+                                <li class="nav"><a href="#" data-filter="*">Web Design</a></li>
+                                <li class="nav"><a href="#" data-filter="*">Mobile Apps</a></li>
+                                <li class="nav"><a href="#" data-filter="*">Software</a></li>
                             </ul>
                             <!-- end filter navigation -->
                         </div>
@@ -618,10 +348,10 @@
                                 <!-- portfolio item -->
                                 <li class="html jquery wordpress">
                                     <figure>
-                                        <div class="gallery-img"><a href="single-project-page1.html"><img src="http://placehold.it/800x600" alt=""></a></div>
+                                        <div class="gallery-img"><a href="single-project-page1.html"><img src="images/training.jpg" alt=""></a></div>
                                         <figcaption>
-                                            <h3><a href="single-project-page1.html">Herbal Beauty Salon</a></h3>
-                                            <p>Branding &amp; Identity</p>
+                                            <h3><a href="single-project-page1.html">It Workforce Training</a></h3>
+                                            <p>Tech &amp; Study</p>
                                         </figcaption>
                                     </figure>
                                 </li>
@@ -629,9 +359,9 @@
                                 <!-- portfolio item -->
                                 <li class="html magento wordpress">
                                     <figure>
-                                        <div class="gallery-img"><a href="single-project-page2.html"><img src="http://placehold.it/800x1200" alt=""></a></div>
+                                        <div class="gallery-img"><a href="single-project-page2.html"><img src="images/web-dev.jpeg" alt=""></a></div>
                                         <figcaption>
-                                            <h3><a href="single-project-page2.html">Tailoring Interior </a></h3>
+                                            <h3><a href="single-project-page2.html">Web Apps </a></h3>
                                             <p>Branding &amp; Identity</p>
                                         </figcaption>
                                     </figure>
@@ -640,9 +370,9 @@
                                 <!-- portfolio item -->
                                 <li class="jquery magento wordpress">
                                     <figure>
-                                        <div class="gallery-img"><a href="single-project-page3.html"><img src="http://placehold.it/800x600" alt=""></a></div>
+                                        <div class="gallery-img"><a href="single-project-page3.html"><img src="images/web-design.jpg" alt=""></a></div>
                                         <figcaption>
-                                            <h3><a href="single-project-page3.html">Pixflow Studio</a></h3>
+                                            <h3><a href="single-project-page3.html">Web Design</a></h3>
                                             <p>Web &amp; Branding</p>
                                         </figcaption>
                                     </figure>
@@ -651,9 +381,9 @@
                                 <!-- portfolio item -->
                                 <li class="wordpress magento jquery">
                                     <figure>
-                                        <div class="gallery-img"><a href="single-project-page4.html"><img src="http://placehold.it/800x1200" alt=""></a></div>
+                                        <div class="gallery-img"><a href="single-project-page4.html"><img src="images/mobile-app.jpg" alt=""></a></div>
                                         <figcaption>
-                                            <h3><a href="single-project-page4.html">Kaya Skin Care</a></h3>
+                                            <h3><a href="single-project-page4.html">Mobile Apps</a></h3>
                                             <p>UI Design &amp; Identity</p>
                                         </figcaption>
                                     </figure>
@@ -662,10 +392,10 @@
                                 <!-- portfolio item -->
                                 <li class="html jquery">
                                     <figure>
-                                        <div class="gallery-img"><a href="single-project-page5.html"><img src="http://placehold.it/800x600" alt=""></a></div>
+                                        <div class="gallery-img"><a href="single-project-page5.html"><img src="images/event-mangement.jpg" alt=""></a></div>
                                         <figcaption>
-                                            <h3><a href="single-project-page5.html">Third Eye Glasses</a></h3>
-                                            <p>Logo &amp; Brochure</p>
+                                            <h3><a href="single-project-page5.html">Enterprise Solutions</a></h3>
+                                            <p>Event &amp; Management</p>
                                         </figcaption>
                                     </figure>
                                 </li>
@@ -673,10 +403,10 @@
                                 <!-- portfolio item -->
                                 <li class="html magento">
                                     <figure>
-                                        <div class="gallery-img"><a href="single-project-page1.html"><img src="http://placehold.it/800x600" alt=""></a></div>
+                                        <div class="gallery-img"><a href="single-project-page1.html"><img src="images/software.jpg" alt=""></a></div>
                                         <figcaption>
-                                            <h3><a href="standard-with-slider.html">Rubber Studio</a></h3>
-                                            <p>Branding &amp; Identity</p>
+                                            <h3><a href="standard-with-slider.html">Software</a></h3>
+                                            <p>Project &amp; Management</p>
                                         </figcaption>
                                     </figure>
                                 </li>
@@ -751,15 +481,15 @@
                         <span class="text-med text-uppercase letter-spacing-2 margin-two white-text font-weight-600 xs-margin-top-six xs-margin-bottom-six display-block">Want to see more amazing works?</span>
                     </div>
                     <div class="col-md-5 no-padding">
-                        <a class="highlight-button-dark btn btn-medium button xs-margin-bottom-five xs-no-margin-right" href="portfolio-wide-with-title-gutter-4columns.html">View Portfolio</a>
-                        <a class="highlight-button btn btn-medium button xs-margin-bottom-five xs-no-margin-right" href="#">Subscribe Us</a>
+                        <a class="highlight-button-dark btn btn-medium button xs-margin-bottom-five xs-no-margin-right" href="#portfolio">View Portfolio</a>
+                        <a class="highlight-button btn btn-medium button xs-margin-bottom-five xs-no-margin-right" href="#contact">Subscribe Us</a>
                     </div>
                 </div>
             </div>
         </section>
         <!-- end highlight section -->
         <!-- services section -->
-        <section class="corporate-standards no-padding-bottom wow fadeIn">
+        <section id="services" class="corporate-standards no-padding-bottom wow fadeIn">
             <div class="container">
                 <div class="row">
                     <!-- section title -->
@@ -892,7 +622,7 @@
         </section>
         <!-- end services section -->
         <!-- key person section -->
-        <section id="key-person" class="wow fadeIn">
+        <section id="teams" class="wow fadeIn">
             <div class="container">
                 <div class="row">
                     <!-- section title -->
@@ -908,7 +638,7 @@
                     <!-- key person item -->
                     <div class="col-md-4 col-xs-4 bottom-margin text-center wow fadeInUp" data-wow-duration="300ms">
                         <div class="key-person">
-                            <div class="key-person-img"><img src="http://placehold.it/500x730" alt=""></div>
+                            <div class="key-person-img"><img src="images/david.jpg" alt=""></div>
                             <div class="key-person-details">
                                 <span class="person-name black-text">David Ricardo</span> <span class="person-post">Founder and CEO</span>
                                 <div class="separator-line bg-yellow"></div>
@@ -921,7 +651,7 @@
                     <!-- key person item -->
                     <div class="col-md-4 col-xs-4 bottom-margin text-center wow fadeInUp" data-wow-duration="600ms">
                         <div class="key-person">
-                            <div class="key-person-img"><img src="http://placehold.it/500x730" alt=""></div>
+                            <div class="key-person-img"><img src="images/badawi.jpg" alt=""></div>
                             <div class="key-person-details">
                                 <span class="person-name black-text">Ahmad Badawi</span> <span class="person-post">Founder and CEO</span>
                                 <div class="separator-line bg-yellow"></div>
@@ -936,7 +666,7 @@
                     <!-- key person item -->
                     <div class="col-md-4 col-xs-4 text-center wow fadeInUp" data-wow-duration="900ms">
                         <div class="key-person">
-                            <div class="key-person-img"><img src="http://placehold.it/500x730" alt=""></div>
+                            <div class="key-person-img"><img src="images/fredian.jpg" alt=""></div>
                             <div class="key-person-details">
                                 <span class="person-name black-text">Fredian Simanjuntak</span> <span class="person-post">Founder and CEO</span>
                                 <div class="separator-line bg-yellow"></div>
@@ -952,12 +682,12 @@
         </section>
         <!-- end key person section -->
         <!-- testimonial section -->
-        <section class="border-bottom">
+        <section id="testimonials" class="border-bottom">
             <div class="container">
                 <div class="row">
                     <!-- testimonials item -->
                     <div class="col-md-4 col-sm-4 testimonial-style2 text-center wow zoomInUp xs-margin-bottom-ten">
-                        <img src="http://placehold.it/300x300" alt=""/>
+                        <img src="images/testimonial-1.jpg" alt=""/>
                         <p class="center-col width-90">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley.</p>
                         <span class="name black-text">Alexander Smith - Google</span>
                         <i class="fa fa-quote-left small-icon yellow-text display-block margin-five no-margin-bottom"></i>
@@ -965,7 +695,7 @@
                     <!-- end testimonials item -->
                     <!-- testimonials item -->
                     <div class="col-md-4 col-sm-4 testimonial-style2 text-center wow zoomInUp xs-margin-bottom-ten">
-                        <img src="http://placehold.it/300x300" alt=""/>
+                        <img src="images/testimonial-2.jpg" alt=""/>
                         <p class="center-col width-90">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley.</p>
                         <span class="name black-text">Herman Miller - Apple</span>
                         <i class="fa fa-quote-left small-icon yellow-text display-block margin-five no-margin-bottom"></i>
@@ -973,7 +703,7 @@
                     <!-- end testimonials item -->
                     <!-- testimonials item -->
                     <div class="col-md-4 col-sm-4 testimonial-style2 text-center wow zoomInUp no-margin-top">
-                        <img src="http://placehold.it/300x300" alt=""/>
+                        <img src="images/testimonial-3.jpg" alt=""/>
                         <p class="center-col width-90">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley.</p>
                         <span class="name black-text">Bryan Jonhson - Yahoo</span>
                         <i class="fa fa-quote-left small-icon yellow-text display-block margin-five no-margin-bottom"></i>
@@ -985,7 +715,7 @@
         <!-- end testimonial section -->
         
         <!-- approach section -->
-        <section id="approach" class="approach bg-black wow fadeIn">
+        <section id="history" class="approach bg-black wow fadeIn">
             <div class="container">
                 <div class="row">
                     <div>
@@ -1001,27 +731,27 @@
                         <!-- end slider item -->
                         <!-- slider item -->
                         <div class="item margin-ten no-margin-top">
-                            <div class="text-center margin-four wow fadeIn sm-margin-bottom-ten" data-wow-duration="600ms"><i class="icon-target medium-icon white-text"></i><h5 class="white-text margin-four no-margin-bottom xs-margin-top-five">Aquaculture</h5><h5 class="white-text margin-three no-margin-bottom xs-margin-top-three">2017 - 2018</h5><span class="approach-details">Aelyon very first venture, using Recirculating Aquaculture System they amazed Batam’s fishery <br>community and made pretty good sales for almost a year</span></div>
+                            <div class="text-center margin-four wow fadeIn sm-margin-bottom-ten" data-wow-duration="600ms"><i class="icon-anchor medium-icon white-text"></i><h5 class="white-text margin-four no-margin-bottom xs-margin-top-five">Aquaculture</h5><h5 class="white-text margin-three no-margin-bottom xs-margin-top-three">2017 - 2018</h5><span class="approach-details">Aelyon very first venture, using Recirculating Aquaculture System they amazed Batam’s fishery <br>community and made pretty good sales for<br> almost a year</span></div>
                         </div>
                         <!-- end slider item -->
                         <!-- slider item -->
                         <div class="item margin-ten no-margin-top">
-                            <div class="text-center margin-four wow fadeIn xs-margin-bottom-ten" data-wow-duration="900ms"><i class="icon-megaphone medium-icon white-text"></i><h5 class="white-text margin-ten no-margin-bottom xs-margin-top-five">Downfall</h5><h5 class="white-text margin-three no-margin-bottom xs-margin-top-three">2018</h5><span class="approach-details">Due to lack of managerial skill and cut off<br> by buyers due to the drop of catfishes demand<br> they decided to lay off</span></div>
+                            <div class="text-center margin-four wow fadeIn sm-margin-bottom-ten" data-wow-duration="900ms"><i class="icon-megaphone medium-icon white-text"></i><h5 class="white-text margin-four no-margin-bottom xs-margin-top-five">Downfall</h5><h5 class="white-text margin-three no-margin-bottom xs-margin-top-three">2018</h5><span class="approach-details">Due to lack of managerial skill and cut off<br> by buyers due to the drop of catfishes demand<br> they decided to lay off</span></div>
                         </div>
                         <!-- end slider item -->
                         <!-- slider item -->
                         <div class="item margin-ten no-margin-top">
-                            <div class="text-center margin-four wow fadeIn" data-wow-duration="1200ms"><i class="icon-envelope medium-icon white-text"></i><h5 class="white-text margin-ten no-margin-bottom xs-margin-top-five">Downfall</h5><h5 class="white-text margin-three no-margin-bottom xs-margin-top-three">2017 - 2018</h5><span class="approach-details">Due to lack of managerial skill and cut off<br> by buyers due to the drop of catfishes demand<br> they decided to lay off</span></div>
+                            <div class="text-center margin-four wow fadeIn" data-wow-duration="1200ms"><i class="icon-book-open medium-icon white-text"></i><h5 class="white-text margin-four no-margin-bottom xs-margin-top-five">Learning</h5><h5 class="white-text margin-three no-margin-bottom xs-margin-top-three">2018 - Now</h5><span class="approach-details">David and Ahmad remained in contact but<br> they agreed to taketime to evaluate their<br> failure and learn from it for a greater good</span></div>
                         </div>
                         <!-- end slider item -->
                         <!-- slider item -->
                         <div class="item margin-ten no-margin-top">
-                            <div class="text-center margin-four sm-margin-bottom-ten"><i class="icon-laptop medium-icon white-text"></i><h5 class="white-text margin-ten no-margin-bottom xs-margin-top-five">Learning</h5><span class="approach-details">David and Ahmad remained in contact but they agreed to take time to evaluate their failure and learn from it for a greater go</span></div>
+                            <div class="text-center margin-four sm-margin-bottom-ten"><i class="icon-map-pin medium-icon white-text"></i><h5 class="white-text margin-four no-margin-bottom xs-margin-top-five">Re-Group</h5><h5 class="white-text margin-three no-margin-bottom xs-margin-top-three">2019</h5><span class="approach-details">David and Ahmad met Fredian. Fredian agreed<br> to join Aelyon and they finally Refounded<br> Aelyon with new direction</span></div>
                         </div>
                         <!-- end slider item -->
                         <!-- slider item -->
                         <div class="item margin-ten no-margin-top">
-                            <div class="text-center margin-four sm-margin-bottom-ten"><i class="icon-tools medium-icon white-text"></i><h5 class="white-text margin-ten no-margin-bottom xs-margin-top-five">Running</h5><span class="approach-details">To this day, Aelyon has served both government and private enterprise on digitalize and automate their business operation with competitive rate.</span></div>
+                            <div class="text-center margin-four sm-margin-bottom-ten"><i class="icon-speedometer medium-icon white-text"></i><h5 class="white-text margin-four no-margin-bottom xs-margin-top-five">Running</h5><h5 class="white-text margin-three no-margin-bottom xs-margin-top-three">Now</h5><span class="approach-details">To this day, Aelyon has served both government<br> and private enterprise on digitalize and automate<br> their business operation with competitive rate.</span></div>
                         </div>
                         <!-- end slider item -->
                     </div>
@@ -1034,13 +764,13 @@
             <div class="container">
                 <div class="row center-col text-center">
                     <h5 class="wow fadeInDown">We'd love to hear about your project.</h5>
-                    <a class="btn highlight-button-black-border margin-four no-margin-bottom wow fadeInUp" href="#">Start Now</a>
+                    <a class="btn highlight-button-black-border margin-four no-margin-bottom wow fadeInUp" href="#contact">Start Now</a>
                 </div>
             </div>
         </section>
         <!-- end new project section -->
         <!-- footer -->
-        <footer>
+        <footer id="contact">
             <div class=" bg-white footer-top">
                 <div class="container">
                     <div class="row margin-four">
@@ -1066,29 +796,29 @@
                         <p class="footer-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
                         <!-- end text -->
                     </div>
-                    <div class="col-md-2 col-sm-3 col-xs-4 footer-link2 col-md-offset-3">
+                    <div class="col-md-2 col-sm-3 col-xs-4 footer-link2 col-md-offset-2">
                         <!-- headline -->
                         <h5>Company</h5>
                         <!-- end headline -->
                         <!-- link -->
                         <ul>
-                            <li><a href="about-us.html">About Company</a></li>
-                            <li><a href="about-us.html">What We Do</a></li>
-                            <li><a href="about-us.html">What We Think</a></li>
-                            <li><a href="careers.html">Careers</a></li>
+                            <li><a href="#about-us">About Company</a></li>
+                            <li><a href="#services">What We Do</a></li>
+                            <li><a href="#work-process">What We Think</a></li>
+                            <li><a href="#portfolio">Portfolio</a></li>
                         </ul>
                         <!-- end link -->
                     </div>
-                    <div class="col-md-2 col-sm-3 col-xs-4  footer-link3">
+                    <div class="col-md-3 col-sm-3 col-xs-4  footer-link3">
                         <!-- headline -->
                         <h5>Services</h5>
                         <!-- end headline -->
                         <!-- link -->
                         <ul>
-                            <li><a href="services.html">Web Development</a></li>
-                            <li><a href="services.html">Graphic Design</a></li>
-                            <li><a href="services.html">Copywriting</a></li>
-                            <li><a href="services.html">Online Marketing</a></li>
+                            <li><a href="#services">Enterprise Solutions</a></li>
+                            <li><a href="#services">Web & Mobile Development</a></li>
+                            <li><a href="#services">It Workforce Training</a></li>
+                            <li><a href="#services">Software Development</a></li>
                         </ul>
                         <!-- end link -->
                     </div>
@@ -1098,10 +828,10 @@
                         <!-- end headline -->
                         <!-- link -->
                         <ul>
-                            <li><a href="team-members.html">Team Members</a></li>
+                            <li><a href="#teams">Team Members</a></li>
                             <li><a href="testimonials.html">Testimonials</a></li>
-                            <li><a href="our-clients.html">Our Clients</a></li>
-                            <li><a href="careers.html">Careers With Us</a></li>
+                            <li><a href="#testimonials">Our Clients</a></li>
+                            <li><a href="#contact-us">Careers With Us</a></li>
                         </ul>
                         <!-- end link -->
                     </div>
@@ -1111,11 +841,11 @@
                     <div class="col-md-6 col-sm-12 sm-text-center sm-margin-bottom-four">
                         <!-- link -->
                         <ul class="list-inline footer-link text-uppercase">
-                            <li><a href="about-us.html">About</a></li>
-                            <li><a href="blog-masonry-3columns.html">Blog</a></li>
-                            <li><a href="careers.html">Careers</a></li>
-                            <li><a href="testimonials.html">Testimonials</a></li>
-                            <li><a href="contact-us.html">Contact</a></li>
+                            <li><a href="#about-us">About</a></li>
+                            <li><a href="#services">Services</a></li>
+                            <li><a href="#portfolio">Portfolio</a></li>
+                            <li><a href="#testimonials">Testimonials</a></li>
+                            <li><a href="#contact">Contact</a></li>
                         </ul>
                         <!-- end link -->
                     </div>
@@ -1124,7 +854,6 @@
                         <a target="_blank" href="https://www.facebook.com/"><i class="fa fa-facebook"></i></a>
                         <a target="_blank" href="https://twitter.com/"><i class="fa fa-twitter"></i></a>
                         <a target="_blank" href="https://plus.google.com"><i class="fa fa-google-plus"></i></a>
-                        <a target="_blank" href="https://dribbble.com/"><i class="fa fa-dribbble"></i></a>
                         <a target="_blank" href="https://www.youtube.com/"><i class="fa fa-youtube"></i></a>
                         <a target="_blank" href="https://www.linkedin.com/"><i class="fa fa-linkedin"></i></a>
                         <!-- end social media link -->

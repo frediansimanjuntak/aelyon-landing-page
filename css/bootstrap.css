@@ -793,7 +793,7 @@ pre code {
         overflow: hidden;
     }
 }
-section#myCarousel {
+section#home {
     padding:0 0;
 }
 
@@ -5199,7 +5199,7 @@ button.close {
     .carousel-indicators {
         bottom: -70px;
     }
-    section#myCarousel .carousel-indicators { bottom: 30px;}
+    section#home .carousel-indicators { bottom: 30px;}
 }
 .clearfix:before,
 .clearfix:after,

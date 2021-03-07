@@ -104,6 +104,11 @@
                                     <a href="#history">History <i class="fa fa-angle-down"></i></a>
                                 </li>
                                 <!-- end menu item -->
+                                <!-- menu item -->
+                                <li class="dropdown panel">
+                                    <a href="#contact">Contact Us <i class="fa fa-angle-down"></i></a>
+                                </li>
+                                <!-- end menu item -->
                             </ul>
                         </div>
                     </div>
@@ -113,7 +118,7 @@
         </nav>
         <!-- end navigation panel -->
         <!-- slider -->
-        <section id="myCarousel"> 
+        <section id="home"> 
             <div class="tp-banner-container">
                 <div class="revolution-slider-full" >
                     <ul>	
@@ -673,7 +678,7 @@
         </section>
         <!-- end services section -->
         <!-- key person section -->
-        <section id="teams" class="wow fadeIn">
+        <section id="teams" class="wow fadeIn border-bottom">
             <div class="container">
                 <div class="row">
                     <!-- section title -->
@@ -702,9 +707,9 @@
                     <!-- key person item -->
                     <div class="col-md-4 col-xs-4 bottom-margin text-center wow fadeInUp" data-wow-duration="600ms">
                         <div class="key-person">
-                            <div class="key-person-img"><img src="images/badawi.jpg" alt=""></div>
+                            <div class="key-person-img"><img src="images/badawi.png" alt=""></div>
                             <div class="key-person-details">
-                                <span class="person-name black-text">Ahmad Badawi</span> <span class="person-post">Founder and CIO</span>
+                                <span class="person-name black-text">Ahmad Badawi</span> <span class="person-post">Founder and COO</span>
                                 <div class="separator-line bg-yellow"></div>
                                 <div class="person-social"><a href="#"><i class="fa fa-facebook"></i></a><a href="#"><i class="fa fa-twitter"></i></a><a href="#"><i class="fa fa-google-plus"></i></a></div>
                                 <p class="text-justify">An experienced venture leader, capable of developing both technical and economic business decisions in a fast and reliable manner. Have experience in leading a diverse group of people to achieve company goals by providing strategic direction, diverse perspectives, and positive leadership.
@@ -729,20 +734,14 @@
                     </div>
                     <!-- end key person item -->
                 </div>
-            </div>
-        </section>
-        <!-- end key person section -->
-        <!-- teams section -->
-        <section id="testimonials" class="border-bottom">
-            <div class="container">
-                <div class="row">
+                <div class="row" style="margin-top:75px; margin-bottom:50px;">
                     <!-- section title -->
                     <div class="col-md-12 text-center">
                         <h3 class="section-title no-padding-bottom">Team Members</h3>
                     </div>
                     <!-- end section title -->
                 </div>
-                <div class="row" style="margin-top:25px; margin-bottom:50px;">
+                <div class="row" style="margin-bottom:50px;">
                     <!-- testimonials item -->
                     <div class="col-md-4 col-sm-4 testimonial-style2 text-center wow zoomInUp xs-margin-bottom-ten">
                         <img src="images/employee/adli.png" alt=""/>
@@ -784,7 +783,7 @@
                 </div>
             </div>
         </section>
-        <!-- end teams section -->
+        <!-- end key person section -->
         <!-- testimonial section -->
         <section id="testimonials" class="border-bottom">
             <div class="container">
@@ -897,7 +896,7 @@
                         <h5>About Us</h5>
                         <!-- end headline -->
                         <!-- text -->
-                        <p class="footer-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+                        <p class="footer-text">Anything related to developing a website or mobile application is our competency. We started this business process on the principle that no business is the same. We ask clients the right questions. We don't just listen, we dig much deeper.</p>
                         <!-- end text -->
                     </div>
                     <div class="col-md-2 col-sm-3 col-xs-4 footer-link2 col-md-offset-2">
@@ -969,7 +968,7 @@
                     <div class="row margin-three">
                         <!-- copyright -->
                         <div class="col-md-6 col-sm-6 col-xs-12 copyright text-left letter-spacing-1 xs-text-center xs-margin-bottom-one">
-                            &copy; PT. Aelyon Inovasi Jaya
+                            &copy; <span id="year"></span> Aelyon. All Rights Reserved.
                         </div>
                         <!-- end copyright -->
                         <!-- logo -->
@@ -1028,5 +1027,9 @@
         <script type="text/javascript" src="js/hamburger-menu.js"></script>
         <!-- setting --> 
         <script type="text/javascript" src="js/main.js"></script>
+
+        <script>
+            document.getElementById("year").innerHTML = new Date().getFullYear();
+        </script>
     </body>
 </html>

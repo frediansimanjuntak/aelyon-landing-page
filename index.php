@@ -700,6 +700,63 @@
         </section>
         <!-- end services section -->
         <!-- key person section -->
+        <section id="key-person" class="wow fadeIn">
+            <div class="container">
+                <div class="row">
+                    <!-- section title -->
+                    <div class="col-md-12 text-center">
+                        <h3 class="section-title no-padding-bottom">Key Person</h3>
+                    </div>
+                    <!-- end section title -->
+                    <div class="col-md-5 col-sm-10 center-col text-center margin-six wow fadeIn">
+                        <h4 class="gray-text">We are a multi-discipline design studio with an extensive network of the finest talent, allowing us to build the perfect team to respond to your brief. </h4>
+                    </div>
+                </div>
+                <div class="row margin-six">
+                    <!-- key person item -->
+                    <div class="col-md-4 col-xs-4 bottom-margin text-center wow fadeInUp" data-wow-duration="300ms">
+                        <div class="key-person">
+                            <div class="key-person-img"><img src="images/david.png" alt=""></div>
+                            <div class="key-person-details">
+                                <span class="person-name black-text">David Ricardo</span> <span class="person-post">Founder and CEO</span>
+                                <div class="separator-line bg-yellow"></div>
+                                <div class="person-social"><a href="#"><i class="fa fa-facebook"></i></a><a href="#"><i class="fa fa-twitter"></i></a><a href="#"><i class="fa fa-google-plus"></i></a></div>
+                                <p>An ambitious generalist and passionate young entrepreneur. Very versatile when it comes to deal with corporation issues, industrial relation problems, even STEM . David always strives to challenge himself and always passionate to make something different. He even left the college because college was too boring for him. As an artist, he is also a wonderful musician.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- end key person item -->
+                    <!-- key person item -->
+                    <div class="col-md-4 col-xs-4 bottom-margin text-center wow fadeInUp" data-wow-duration="600ms">
+                        <div class="key-person">
+                            <div class="key-person-img"><img src="images/badawi.png" alt=""></div>
+                            <div class="key-person-details">
+                                <span class="person-name black-text">Ahmad Badawi</span> <span class="person-post">Founder and COO</span>
+                                <div class="separator-line bg-yellow"></div>
+                                <div class="person-social"><a href="#"><i class="fa fa-facebook"></i></a><a href="#"><i class="fa fa-twitter"></i></a><a href="#"><i class="fa fa-google-plus"></i></a></div>
+                                <p>An experienced venture leader, capable of developing both technical and economic business decisions in a fast and reliable manner. Have experience in leading a diverse group of people to achieve company goals by providing strategic direction, diverse perspectives, and positive leadership. A versatile and brutal fast learner, do-whatever-it-takes type. Passionate in digital transformation at industrial enterprises using the application of deep technology.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- end key person item -->
+                    <!-- key person item -->
+                    <div class="col-md-4 col-xs-4 text-center wow fadeInUp" data-wow-duration="900ms">
+                        <div class="key-person">
+                            <div class="key-person-img"><img src="http://placehold.it/500x730" alt=""></div>
+                            <div class="key-person-details">
+                                <span class="person-name black-text">Jane Lupkin</span> <span class="person-post">Magento Developer</span>
+                                <div class="separator-line bg-yellow"></div>
+                                <div class="person-social"><a href="#"><i class="fa fa-facebook"></i></a><a href="#"><i class="fa fa-twitter"></i></a><a href="#"><i class="fa fa-google-plus"></i></a></div>
+                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- end key person item -->
+                </div>
+            </div>
+        </section>
+        <!-- end key person section -->
+        <!-- key person section -->
         <section id="teams" class="wow fadeIn border-bottom">
             <div class="container">
                 <div class="row">

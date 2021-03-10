@@ -238,7 +238,7 @@
         </section>
         <!-- slider -->
         <!-- about section -->
-        <section id="about-us" class="no-padding-bottom wow fadeIn">
+        <section id="about-us" class="wow fadeIn">
             <div class="container">
                 <div class="row">
                     <span class="margin-five no-margin-top display-block letter-spacing-2 text-center">EST. 2019</span>
@@ -257,7 +257,6 @@
                     </div>
                 </div>
                 <div class="row">
-                    <span class="margin-five no-margin-top display-block letter-spacing-2 text-center">EST. 2019</span>
                     <div class="col-md-6 col-sm-10 text-left left-col">
                         <img src="images/aboutus/1.png">  
                     </div>
@@ -279,17 +278,56 @@
                     </div>
                 </div>
             </div>
-            <div class="container-fluid margin-five no-margin-bottom">
+        </section>
+        <!-- end about section -->
+        <!-- highlight section -->
+        <section id="history" class="fix-background" style="background-image:url('images/programming-3.jpg');">
+            <div class="opacity-medium bg-black"></div>
+            <div class="container position-relative">
                 <div class="row">
-                    <div class="col-md-12 col-sm-12 col-xs-12 bg-dark-aelyon padding-three text-center">
-                        <span class="text-small text-uppercase font-weight-600 white-text letter-spacing-2">Web Development &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;/&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Mobile Development &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;/&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Training &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;/&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Software &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;/&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Applications</span>
+                    <div>
+                        <h5 class="text-large white-text margin-seven-bottom text-center">History Of Aelyon</h5>
+                    </div>
+                </div>
+                <div class="row">
+                    <div id="approach-slider" class="owl-carousel owl-theme light-pagination bottom-pagination">
+                        <!-- slider item -->
+                        <div class="item margin-ten no-margin-top">
+                            <div class="text-center margin-four wow fadeIn sm-margin-bottom-ten" data-wow-duration="300ms"><i class="icon-map medium-icon white-text"></i><h5 class="white-text margin-four no-margin-bottom xs-margin-top-five">Founding</h5><h5 class="white-text margin-three no-margin-bottom xs-margin-top-three">2016</h5><span class="approach-details">David and Ahmad met for the first time.<br> They decied to found a company together</span></div>
+                        </div>
+                        <!-- end slider item -->
+                        <!-- slider item -->
+                        <div class="item margin-ten no-margin-top">
+                            <div class="text-center margin-four wow fadeIn sm-margin-bottom-ten" data-wow-duration="600ms"><i class="icon-anchor medium-icon white-text"></i><h5 class="white-text margin-four no-margin-bottom xs-margin-top-five">Aquaculture</h5><h5 class="white-text margin-three no-margin-bottom xs-margin-top-three">2017 - 2018</h5><span class="approach-details">Aelyon very first venture, using Recirculating Aquaculture System they amazed Batam’s fishery <br>community and made pretty good sales for<br> almost a year</span></div>
+                        </div>
+                        <!-- end slider item -->
+                        <!-- slider item -->
+                        <div class="item margin-ten no-margin-top">
+                            <div class="text-center margin-four wow fadeIn sm-margin-bottom-ten" data-wow-duration="900ms"><i class="icon-megaphone medium-icon white-text"></i><h5 class="white-text margin-four no-margin-bottom xs-margin-top-five">Downfall</h5><h5 class="white-text margin-three no-margin-bottom xs-margin-top-three">2018</h5><span class="approach-details">Due to lack of managerial skill and cut off<br> by buyers due to the drop of catfishes demand<br> they decided to lay off</span></div>
+                        </div>
+                        <!-- end slider item -->
+                        <!-- slider item -->
+                        <div class="item margin-ten no-margin-top">
+                            <div class="text-center margin-four wow fadeIn" data-wow-duration="1200ms"><i class="icon-book-open medium-icon white-text"></i><h5 class="white-text margin-four no-margin-bottom xs-margin-top-five">Learning</h5><h5 class="white-text margin-three no-margin-bottom xs-margin-top-three">2018 - Now</h5><span class="approach-details">David and Ahmad remained in contact but<br> they agreed to taketime to evaluate their<br> failure and learn from it for a greater good</span></div>
+                        </div>
+                        <!-- end slider item -->
+                        <!-- slider item -->
+                        <div class="item margin-ten no-margin-top">
+                            <div class="text-center margin-four sm-margin-bottom-ten"><i class="icon-map-pin medium-icon white-text"></i><h5 class="white-text margin-four no-margin-bottom xs-margin-top-five">Re-Group</h5><h5 class="white-text margin-three no-margin-bottom xs-margin-top-three">2019</h5><span class="approach-details">David and Ahmad met Fredian. Fredian agreed<br> to join Aelyon and they finally Refounded<br> Aelyon with new direction</span></div>
+                        </div>
+                        <!-- end slider item -->
+                        <!-- slider item -->
+                        <div class="item margin-ten no-margin-top">
+                            <div class="text-center margin-four sm-margin-bottom-ten"><i class="icon-speedometer medium-icon white-text"></i><h5 class="white-text margin-four no-margin-bottom xs-margin-top-five">Running</h5><h5 class="white-text margin-three no-margin-bottom xs-margin-top-three">Now</h5><span class="approach-details">To this day, Aelyon has served both government<br> and private enterprise on digitalize and automate<br> their business operation with competitive rate.</span></div>
+                        </div>
+                        <!-- end slider item -->
                     </div>
                 </div>
             </div>
         </section>
-        <!-- end about section -->
+        <!-- end highlight section -->
         <!-- features section -->
-        <section id="features" class="features wow fadeIn">
+        <section id="features" class="features wow fadeIn no-margin-top no-margin-bottom border-bottom">
             <div class="container">
                 <div class="row">
                     <!-- section title -->
@@ -351,45 +389,60 @@
             </div>
         </section>
         <!-- end features section -->
-        <!-- counter section -->
-        <section id="counter" class="fix-background" style="background-image:url('images/programming-3.jpg');">
-            <div class="opacity-full bg-dark-gray"></div>
-            <div class="container position-relative">
+        <!-- work process section -->
+        <section id="work-process" class="work-process wow fadeIn border-bottom">
+            <div class="container">
                 <div class="row">
-                    <!-- counter item -->
-                    <div class="col-md-3 col-sm-6 bottom-margin text-center counter-section wow fadeInUp sm-margin-bottom-ten" data-wow-duration="300ms">
-                        <i class="icon-heart medium-icon"></i>
-                        <span class="timer counter-number white-text main-font font-weight-600" data-to="516" data-speed="7000"></span>
-                        <span class="counter-title light-gray-text">Project Ordered</span>
+                    <div class="col-md-3 col-sm-6 col-xs-12 text-center work-process-sub position-relative overflow-hidden sm-margin-bottom-eight wow fadeIn">
+                        <div class="work-process-text">
+                            <span class="work-process-number font-weight-100 display-block">01</span>
+                            <span class="text-uppercase letter-spacing-2 font-weight-600 black-text">Strategy</span>
+                            <div class="separator-line-thick bg-mid-gray margin-three"></div>
+                        </div>
+                        <!-- <div class="work-process-details position-absolute display-block">
+                            <i class="icon-chat medium-icon fast-yellow-text display-block"></i>
+                            <span class="text-small text-uppercase">Lorem Ipsum is simply dummy text<br> of the printing and typesetting.</span>
+                        </div> -->
                     </div>
-                    <!-- end counter item -->
-                    <!-- counter item -->
-                    <div class="col-md-3 col-sm-6 bottom-margin text-center counter-section wow fadeInUp sm-margin-bottom-ten" data-wow-duration="600ms">
-                        <i class="icon-happy medium-icon"></i>
-                        <span class="timer counter-number white-text main-font font-weight-600" data-to="478" data-speed="7000"></span>
-                        <span class="counter-title light-gray-text">Happy Clients</span>
+                    <div class="col-md-3 col-sm-6 col-xs-12 text-center work-process-sub position-relative overflow-hidden sm-margin-bottom-eight wow fadeIn">
+                        <div class="work-process-text">
+                            <span class="work-process-number font-weight-100 display-block">02</span>
+                            <span class="text-uppercase letter-spacing-2 font-weight-600 black-text">Planning</span>
+                            <div class="separator-line-thick bg-mid-gray margin-three"></div>
+                        </div>
+                        <!-- <div class="work-process-details position-absolute display-block">
+                            <i class="icon-toolbox medium-icon fast-yellow-text display-block"></i>
+                            <span class="text-small text-uppercase">Lorem Ipsum is simply dummy text<br> of the printing and typesetting.</span>
+                        </div> -->
                     </div>
-                    <!-- end counter item -->
-                    <!-- counter item -->
-                    <div class="col-md-3 col-sm-6 bottom-margin-small text-center counter-section wow fadeInUp xs-margin-bottom-ten" data-wow-duration="900ms">
-                        <i class="icon-anchor medium-icon"></i>
-                        <span class="timer counter-number white-text main-font font-weight-600" data-to="652" data-speed="7000"></span>
-                        <span class="counter-title light-gray-text">Projects Completed</span>
+                    <div class="col-md-3 col-sm-6 col-xs-12 text-center work-process-sub position-relative overflow-hidden wow fadeIn">
+                        <div class="work-process-text">
+                            <span class="work-process-number font-weight-100 display-block">03</span>
+                            <span class="text-uppercase letter-spacing-2 font-weight-600 black-text">Development</span>
+                            <div class="separator-line-thick bg-mid-gray margin-three"></div>
+                        </div>
+                        <!-- <div class="work-process-details position-absolute display-block">
+                            <i class="icon-desktop medium-icon fast-yellow-text display-block"></i>
+                            <span class="text-small text-uppercase">Lorem Ipsum is simply dummy text<br> of the printing and typesetting.</span>
+                        </div> -->
                     </div>
-                    <!-- end counter item -->
-                    <!-- counter item -->
-                    <div class="col-md-3 col-sm-6 text-center counter-section wow fadeInUp" data-wow-duration="1200ms">
-                        <i class="icon-chat medium-icon"></i>
-                        <span class="timer counter-number white-text main-font font-weight-600" data-to="458" data-speed="7000"></span>
-                        <span class="counter-title light-gray-text">Comments Reserved</span>
+                    <div class="col-md-3 col-sm-6 col-xs-12 text-center work-process-sub position-relative overflow-hidden wow fadeIn">
+                        <div class="work-process-text">
+                            <span class="work-process-number font-weight-100 display-block">04</span>
+                            <span class="text-uppercase letter-spacing-2 font-weight-600 black-text">Launch</span>
+                            <div class="separator-line-thick bg-mid-gray margin-three"></div>
+                        </div>
+                        <!-- <div class="work-process-details position-absolute display-block">
+                            <i class="icon-hotairballoon medium-icon fast-yellow-text display-block"></i>
+                            <span class="text-small text-uppercase">Lorem Ipsum is simply dummy text<br> of the printing and typesetting.</span>
+                        </div> -->
                     </div>
-                    <!-- end counter item -->
                 </div>
             </div>
         </section>
-        <!-- end counter section -->
+        <!-- end work process section -->
         <!-- portfolio section -->
-        <section id="portfolio" class="grid-wrap work-4col margin-top-section no-margin-top no-padding-bottom wow fadeIn">
+        <section id="portfolio" class="work-4col masonry wide no-margin-top content-section no-padding-bottom">
             <div class="container">
                 <div class="row">
                     <div class="col-md-12 text-center">
@@ -405,169 +458,117 @@
                 </div>
             </div>
             <div class="container-fluid">
-                <div class="row no-padding">
-                    <!-- section title -->
-                    <div class="col-md-12 text-center">
+                <div class="row">
+                    <div class="col-md-12 text-center" >
                         <div class="text-center">
-                            <!-- filter navigation -->
-                            <ul class="portfolio-filter nav nav-tabs">
+                            <!-- work filter -->
+                            <ul class="portfolio-filter nav nav-tabs nav-tabs-light wow fadeInUp">
                                 <li class="nav active"><a href="#" data-filter="*">All</a></li>
-                                <li class="nav"><a href="#" data-filter="*">Training</a></li>
-                                <li class="nav"><a href="#" data-filter="*">Web Design</a></li>
-                                <li class="nav"><a href="#" data-filter="*">Mobile Apps</a></li>
-                                <li class="nav"><a href="#" data-filter="*">Software</a></li>
+                                <li class="nav"><a href="#" data-filter=".training">Training</a></li>
+                                <li class="nav"><a href="#" data-filter=".website">Web Design</a></li>
+                                <li class="nav"><a href="#" data-filter=".mobile-apps">Mobile Apps</a></li>
                             </ul>
-                            <!-- end filter navigation -->
+                            <!-- end work filter -->
                         </div>
                     </div>
-                    <div class="grid-gallery overflow-hidden">
+                    <div class="col-md-12 grid-gallery overflow-hidden no-padding" >
                         <div class="tab-content">
-                            <ul class="masonry-items grid">
-                                <!-- portfolio item -->
-                                <li class="html jquery wordpress">
+                            <!-- work grid -->
+                            <ul class="grid masonry-items">
+                                <!-- work item ( lightbox gallery ) -->
+                                <li class="mobile-apps">
                                     <figure>
-                                        <div class="gallery-img"><a href="single-project-page1.html"><img src="images/training.jpg" alt=""></a></div>
-                                        <figcaption>
-                                            <h3><a href="single-project-page1.html">It Workforce Training</a></h3>
-                                            <p>Tech &amp; Study</p>
-                                        </figcaption>
+                                        <div class="gallery-img"><a href="images/portofolio/mobile-apps/1.jpg" title=""><img src="images/portofolio/mobile-apps/1.jpg" alt=""></a></div>
                                     </figure>
                                 </li>
-                                <!-- end portfolio item -->
-                                <!-- portfolio item -->
-                                <li class="html magento wordpress">
+                                <!-- end work item -->
+                                <!-- work item -->
+                                <li class="website">
                                     <figure>
-                                        <div class="gallery-img"><a href="single-project-page2.html"><img src="images/web-dev.jpeg" alt=""></a></div>
-                                        <figcaption>
-                                            <h3><a href="single-project-page2.html">Web Apps </a></h3>
-                                            <p>Branding &amp; Identity</p>
-                                        </figcaption>
+                                        <div class="gallery-img"><a href="images/portofolio/website/1.jpg"><img src="images/portofolio/website/1.jpg" alt=""></a></div>
                                     </figure>
                                 </li>
-                                <!-- end portfolio item -->
-                                <!-- portfolio item -->
-                                <li class="jquery magento wordpress">
+                                <!-- end work item -->
+                                <!-- work item ( video lightbox )-->
+                                <li class="mobile-apps">
                                     <figure>
-                                        <div class="gallery-img"><a href="single-project-page3.html"><img src="images/web-design.jpg" alt=""></a></div>
-                                        <figcaption>
-                                            <h3><a href="single-project-page3.html">Web Design</a></h3>
-                                            <p>Web &amp; Branding</p>
-                                        </figcaption>
+                                        <div class="gallery-img"><a href="images/portofolio/mobile-apps/2.jpg" title=""><img src="images/portofolio/mobile-apps/2.jpg" alt=""></a></div>
                                     </figure>
                                 </li>
-                                <!-- end portfolio item -->
-                                <!-- portfolio item -->
-                                <li class="wordpress magento jquery">
+                                <!-- end work item -->
+                                <!-- work item ( ajax Popup ) -->
+                                <li class="training">
                                     <figure>
-                                        <div class="gallery-img"><a href="single-project-page4.html"><img src="images/mobile-app.jpg" alt=""></a></div>
-                                        <figcaption>
-                                            <h3><a href="single-project-page4.html">Mobile Apps</a></h3>
-                                            <p>UI Design &amp; Identity</p>
-                                        </figcaption>
+                                        <div class="gallery-img"><a href="images/portofolio/training/1.jpeg" class="simple-ajax-popup-align-top"><img src="images/portofolio/training/1.jpeg" alt=""></a></div>
                                     </figure>
                                 </li>
-                                <!-- end portfolio item -->
-                                <!-- portfolio item -->
-                                <li class="html jquery">
+                                <!-- end work item -->
+                                <!-- work item -->
+                                <li class="mobile-apps">
                                     <figure>
-                                        <div class="gallery-img"><a href="single-project-page5.html"><img src="images/event-mangement.jpg" alt=""></a></div>
-                                        <figcaption>
-                                            <h3><a href="single-project-page5.html">Enterprise Solutions</a></h3>
-                                            <p>Event &amp; Management</p>
-                                        </figcaption>
+                                        <div class="gallery-img"><a href="images/portofolio/mobile-apps/4.jpg" title=""><img src="images/portofolio/mobile-apps/4.jpg" alt=""></a></div>
                                     </figure>
                                 </li>
-                                <!-- end portfolio item -->
-                                <!-- portfolio item -->
-                                <li class="html magento">
+                                <!-- end work item -->
+                                <!-- work item -->
+                                <li class="training">
                                     <figure>
-                                        <div class="gallery-img"><a href="single-project-page1.html"><img src="images/software.jpg" alt=""></a></div>
-                                        <figcaption>
-                                            <h3><a href="standard-with-slider.html">Software</a></h3>
-                                            <p>Project &amp; Management</p>
-                                        </figcaption>
+                                        <div class="gallery-img"><a href="images/portofolio/training/2.jpeg"><img src="images/portofolio/training/2.jpeg" alt=""></a></div>
                                     </figure>
                                 </li>
-                                <!-- end portfolio item -->
+                                <!-- end work item -->
+                                <!-- work item -->
+                                <li class="training">
+                                    <figure>
+                                        <div class="gallery-img"><a href="images/portofolio/training/3.jpeg"><img src="images/portofolio/training/3.jpeg" alt=""></a></div>
+                                    </figure>
+                                </li>
+                                <!-- end work item -->
+                                <!-- work item -->
+                                <li class="website">
+                                    <figure>
+                                        <div class="gallery-img"><a href="images/portofolio/website/2.jpg"><img src="images/portofolio/website/2.jpg" alt=""></a></div>
+                                    </figure>
+                                </li>
+                                <!-- end work item -->
+                                <!-- work item -->
+                                <li class="training">
+                                    <figure>
+                                        <div class="gallery-img"><a href="images/portofolio/training/4.jpeg"><img src="images/portofolio/training/4.jpeg" alt=""></a></div>
+                                    </figure>
+                                </li>
+                                <!-- end work item -->
+                                <!-- work item -->
+                                <li class="mobile-apps">
+                                    <figure>
+                                        <div class="gallery-img"><a href="images/portofolio/mobile-apps/3.jpg" title=""><img src="images/portofolio/mobile-apps/3.jpg" alt=""></a></div>
+                                    </figure>
+                                </li>
+                                <!-- end work item -->
+                                <!-- work item -->
+                                <li class="website">
+                                    <figure>
+                                        <div class="gallery-img"><a href="images/portofolio/website/3.jpg"><img src="images/portofolio/website/3.jpg" alt=""></a></div>
+                                    </figure>
+                                </li>
+                                <!-- end work item -->
+                                <!-- work item -->
+                                <li class="website">
+                                    <figure>
+                                        <div class="gallery-img"><a href="images/portofolio/website/4.jpg"><img src="images/portofolio/website/4.jpg" alt=""></a></div>
+                                    </figure>
+                                </li>
+                                <!-- end work item -->
                             </ul>
+                            <!-- end work grid -->
                         </div>
                     </div>
                 </div>
             </div>
         </section>
         <!-- end portfolio section -->
-        <!-- work process section -->
-        <section id="work-process" class="work-process wow fadeIn">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-3 col-sm-6 col-xs-12 text-center work-process-sub position-relative overflow-hidden sm-margin-bottom-eight wow fadeIn">
-                        <div class="work-process-text">
-                            <span class="work-process-number font-weight-100 display-block">01</span>
-                            <span class="text-uppercase letter-spacing-2 font-weight-600 black-text">Strategy</span>
-                            <div class="separator-line-thick bg-mid-gray margin-three"></div>
-                        </div>
-                        <div class="work-process-details position-absolute display-block">
-                            <i class="icon-chat medium-icon fast-yellow-text display-block"></i>
-                            <span class="text-small text-uppercase">Lorem Ipsum is simply dummy text<br> of the printing and typesetting.</span>
-                        </div>
-                    </div>
-                    <div class="col-md-3 col-sm-6 col-xs-12 text-center work-process-sub position-relative overflow-hidden sm-margin-bottom-eight wow fadeIn">
-                        <div class="work-process-text">
-                            <span class="work-process-number font-weight-100 display-block">02</span>
-                            <span class="text-uppercase letter-spacing-2 font-weight-600 black-text">Planning</span>
-                            <div class="separator-line-thick bg-mid-gray margin-three"></div>
-                        </div>
-                        <div class="work-process-details position-absolute display-block">
-                            <i class="icon-toolbox medium-icon fast-yellow-text display-block"></i>
-                            <span class="text-small text-uppercase">Lorem Ipsum is simply dummy text<br> of the printing and typesetting.</span>
-                        </div>
-                    </div>
-                    <div class="col-md-3 col-sm-6 col-xs-12 text-center work-process-sub position-relative overflow-hidden wow fadeIn">
-                        <div class="work-process-text">
-                            <span class="work-process-number font-weight-100 display-block">03</span>
-                            <span class="text-uppercase letter-spacing-2 font-weight-600 black-text">Development</span>
-                            <div class="separator-line-thick bg-mid-gray margin-three"></div>
-                        </div>
-                        <div class="work-process-details position-absolute display-block">
-                            <i class="icon-desktop medium-icon fast-yellow-text display-block"></i>
-                            <span class="text-small text-uppercase">Lorem Ipsum is simply dummy text<br> of the printing and typesetting.</span>
-                        </div>
-                    </div>
-                    <div class="col-md-3 col-sm-6 col-xs-12 text-center work-process-sub position-relative overflow-hidden wow fadeIn">
-                        <div class="work-process-text">
-                            <span class="work-process-number font-weight-100 display-block">04</span>
-                            <span class="text-uppercase letter-spacing-2 font-weight-600 black-text">Launch</span>
-                            <div class="separator-line-thick bg-mid-gray margin-three"></div>
-                        </div>
-                        <div class="work-process-details position-absolute display-block">
-                            <i class="icon-hotairballoon medium-icon fast-yellow-text display-block"></i>
-                            <span class="text-small text-uppercase">Lorem Ipsum is simply dummy text<br> of the printing and typesetting.</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- end work process section -->
-        <!-- highlight section -->
-        <section class="bg-dark-aelyon no-padding wow fadeInUp">
-            <div class="container">
-                <div class="row padding-five sm-text-center">
-                    <div class="col-md-1">
-                        <i class="medium-icon white-text no-margin icon-toolbox"></i>
-                    </div>
-                    <div class="col-md-6 no-padding">
-                        <span class="text-med text-uppercase letter-spacing-2 margin-two white-text font-weight-600 xs-margin-top-six xs-margin-bottom-six display-block">Want to see more amazing works?</span>
-                    </div>
-                    <div class="col-md-5 no-padding">
-                        <a class="highlight-button-dark btn btn-medium button xs-margin-bottom-five xs-no-margin-right" href="#portfolio">View Portfolio</a>
-                        <a class="highlight-button btn btn-medium button xs-margin-bottom-five xs-no-margin-right" href="#contact">Subscribe Us</a>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- end highlight section -->
         <!-- services section -->
-        <section id="services" class="corporate-standards no-padding-bottom wow fadeIn">
+        <section id="services" class="corporate-standards wow fadeIn">
             <div class="container">
                 <div class="row">
                     <!-- section title -->
@@ -699,17 +700,35 @@
             </div>
         </section>
         <!-- end services section -->
+        <!-- highlight section -->
+        <section class="bg-dark-aelyon no-padding wow fadeInUp">
+            <div class="container">
+                <div class="row padding-five sm-text-center">
+                    <div class="col-md-1">
+                        <i class="medium-icon white-text no-margin icon-toolbox"></i>
+                    </div>
+                    <div class="col-md-6 no-padding">
+                        <span class="text-med text-uppercase letter-spacing-2 margin-two white-text font-weight-600 xs-margin-top-six xs-margin-bottom-six display-block">Want to see more amazing works?</span>
+                    </div>
+                    <div class="col-md-5 no-padding">
+                        <a class="highlight-button-dark btn btn-medium button xs-margin-bottom-five xs-no-margin-right" href="#portfolio">View Portfolio</a>
+                        <a class="highlight-button btn btn-medium button xs-margin-bottom-five xs-no-margin-right" href="#contact">Subscribe Us</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- end highlight section -->
         <!-- key person section -->
-        <section id="key-person" class="wow fadeIn">
+        <section id="teams" class="wow fadeIn no-padding-bottom">
             <div class="container">
                 <div class="row">
                     <!-- section title -->
                     <div class="col-md-12 text-center">
-                        <h3 class="section-title no-padding-bottom">Key Person</h3>
+                        <h3 class="section-title">Team</h3>
                     </div>
                     <!-- end section title -->
                     <div class="col-md-5 col-sm-10 center-col text-center margin-six wow fadeIn">
-                        <h4 class="gray-text">We are a multi-discipline design studio with an extensive network of the finest talent, allowing us to build the perfect team to respond to your brief. </h4>
+                        <h4 class="gray-text">We are a multi-discipline design studio with an extensive network of the finest talent, allowing us to build the perfect team to respond to your brief.</h4>
                     </div>
                 </div>
                 <div class="row margin-six">
@@ -720,7 +739,7 @@
                             <div class="key-person-details">
                                 <span class="person-name black-text">David Ricardo</span> <span class="person-post">Founder and CEO</span>
                                 <div class="separator-line bg-yellow"></div>
-                                <div class="person-social"><a href="#"><i class="fa fa-facebook"></i></a><a href="#"><i class="fa fa-twitter"></i></a><a href="#"><i class="fa fa-google-plus"></i></a></div>
+                                <div class="person-social"><a href="#"><i class="fa fa-facebook"></i></a><a href="#"><i class="fa fa-linkedin"></i></a><a href="#"><i class="fa fa-instagram"></i></a></div>
                                 <p>An ambitious generalist and passionate young entrepreneur. Very versatile when it comes to deal with corporation issues, industrial relation problems, even STEM . David always strives to challenge himself and always passionate to make something different. He even left the college because college was too boring for him. As an artist, he is also a wonderful musician.</p>
                             </div>
                         </div>
@@ -733,67 +752,8 @@
                             <div class="key-person-details">
                                 <span class="person-name black-text">Ahmad Badawi</span> <span class="person-post">Founder and COO</span>
                                 <div class="separator-line bg-yellow"></div>
-                                <div class="person-social"><a href="#"><i class="fa fa-facebook"></i></a><a href="#"><i class="fa fa-twitter"></i></a><a href="#"><i class="fa fa-google-plus"></i></a></div>
+                                <div class="person-social"><a href="#"><i class="fa fa-facebook"></i></a><a href="#"><i class="fa fa-linkedin"></i></a><a href="#"><i class="fa fa-instagram"></i></a></div>
                                 <p>An experienced venture leader, capable of developing both technical and economic business decisions in a fast and reliable manner. Have experience in leading a diverse group of people to achieve company goals by providing strategic direction, diverse perspectives, and positive leadership. A versatile and brutal fast learner, do-whatever-it-takes type. Passionate in digital transformation at industrial enterprises using the application of deep technology.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- end key person item -->
-                    <!-- key person item -->
-                    <div class="col-md-4 col-xs-4 text-center wow fadeInUp" data-wow-duration="900ms">
-                        <div class="key-person">
-                            <div class="key-person-img"><img src="http://placehold.it/500x730" alt=""></div>
-                            <div class="key-person-details">
-                                <span class="person-name black-text">Jane Lupkin</span> <span class="person-post">Magento Developer</span>
-                                <div class="separator-line bg-yellow"></div>
-                                <div class="person-social"><a href="#"><i class="fa fa-facebook"></i></a><a href="#"><i class="fa fa-twitter"></i></a><a href="#"><i class="fa fa-google-plus"></i></a></div>
-                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- end key person item -->
-                </div>
-            </div>
-        </section>
-        <!-- end key person section -->
-        <!-- key person section -->
-        <section id="teams" class="wow fadeIn border-bottom">
-            <div class="container">
-                <div class="row">
-                    <!-- section title -->
-                    <div class="col-md-12 text-center">
-                        <h3 class="section-title no-padding-bottom">Teams</h3>
-                    </div>
-                    <!-- end section title -->
-                    <div class="col-md-5 col-sm-10 center-col text-center margin-six wow fadeIn">
-                        <h4 class="gray-text">We are a multi-discipline design studio with an extensive network of the finest talent, allowing us to build the perfect team to respond to your brief. </h4>
-                    </div>
-                </div>
-                <div class="row margin-six">
-                    <!-- key person item -->
-                    <div class="col-md-4 col-xs-4 bottom-margin text-center wow fadeInUp" data-wow-duration="300ms">
-                        <div class="key-person">
-                            <div class="key-person-img"><img src="images/david.png" alt=""></div>
-                            <div class="key-person-details">
-                                <span class="person-name black-text">David Ricardo</span> <span class="person-post">Founder and CEO</span>
-                                <div class="separator-line bg-yellow"></div>
-                                <div class="person-social"><a href="#"><i class="fa fa-facebook"></i></a><a href="#"><i class="fa fa-twitter"></i></a><a href="#"><i class="fa fa-google-plus"></i></a></div>
-                                <p class="text-justify">An ambitious generalist and passionate young entrepreneur. Very versatile when it comes to deal with corporation issues, industrial relation problems, even STEM . David always strives to challenge himself and always passionate to make something different. He even left the college because college was too boring for him. As an artist, he is also a wonderful musician</p>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- end key person item -->
-                    <!-- key person item -->
-                    <div class="col-md-4 col-xs-4 bottom-margin text-center wow fadeInUp" data-wow-duration="600ms">
-                        <div class="key-person">
-                            <div class="key-person-img"><img src="images/badawi.png" alt=""></div>
-                            <div class="key-person-details">
-                                <span class="person-name black-text">Ahmad Badawi</span> <span class="person-post">Founder and COO</span>
-                                <div class="separator-line bg-yellow"></div>
-                                <div class="person-social"><a href="#"><i class="fa fa-facebook"></i></a><a href="#"><i class="fa fa-twitter"></i></a><a href="#"><i class="fa fa-google-plus"></i></a></div>
-                                <p class="text-justify">An experienced venture leader, capable of developing both technical and economic business decisions in a fast and reliable manner. Have experience in leading a diverse group of people to achieve company goals by providing strategic direction, diverse perspectives, and positive leadership.
-                                    A versatile and brutal fast learner, do-whatever-it-takes type. Passionate in digital transformation at industrial enterprises using the application of deep technology
-                                </p>
                             </div>
                         </div>
                     </div>
@@ -805,22 +765,27 @@
                             <div class="key-person-details">
                                 <span class="person-name black-text">Fredian Simanjuntak</span> <span class="person-post">Founder and CTO</span>
                                 <div class="separator-line bg-yellow"></div>
-                                <div class="person-social"><a href="#"><i class="fa fa-facebook"></i></a><a href="#"><i class="fa fa-twitter"></i></a><a href="#"><i class="fa fa-google-plus"></i></a></div>
-                                <p class="text-justify">An experienced developer for 6 years to this day. Has been working in various startup and tech companies in the country even international tech companies. He also an educator and currently serving as associate lecturer in Batam International University in Computer Science Department
-                                </p>
+                                <div class="person-social"><a href="#"><i class="fa fa-facebook"></i></a><a href="#"><i class="fa fa-linkedin"></i></a><a href="#"><i class="fa fa-instagram"></i></a></div>
+                                <p>An experienced developer for 6 years to this day. Has been working in various startup and tech companies in the country even international tech companies. He also an educator and currently serving as associate lecturer in Batam International University in Computer Science Department.</p>
                             </div>
                         </div>
                     </div>
                     <!-- end key person item -->
                 </div>
-                <div class="row" style="margin-top:75px; margin-bottom:50px;">
+            </div>
+        </section>
+        <!-- end key person section -->
+        <!-- key person section -->
+        <section id="teams" class="wow fadeIn border-bottom">
+            <div class="container">                
+                <div class="row no-padding-bottom">
                     <!-- section title -->
                     <div class="col-md-12 text-center">
-                        <h3 class="section-title no-padding-bottom">Team Members</h3>
+                        <h3 class="section-title padding-three">Team Members</h3>
                     </div>
                     <!-- end section title -->
                 </div>
-                <div class="row" style="margin-bottom:50px;">
+                <div class="row padding-five">
                     <!-- testimonials item -->
                     <div class="col-md-4 col-sm-4 testimonial-style2 text-center wow zoomInUp xs-margin-bottom-ten">
                         <img src="images/employee/adli.png" alt=""/>
@@ -834,27 +799,27 @@
                     </div>
                     <!-- end testimonials item -->
                     <!-- testimonials item -->
-                    <div class="col-md-4 col-sm-4 testimonial-style2 text-center wow zoomInUp">
+                    <div class="col-md-4 col-sm-4 testimonial-style2 text-center wow zoomInUp xs-margin-bottom-ten">
                         <img src="images/employee/aneta.png" alt=""/>
                         <span class="name black-text">Aneta - Staff</span>
                     </div>
                     <!-- end testimonials item -->
                 </div>
-                <div class="row">
+                <div class="row padding-five">
                     <!-- testimonials item -->
-                    <div class="col-md-4 col-sm-4 testimonial-style2 text-center wow zoomInUp">
+                    <div class="col-md-4 col-sm-4 testimonial-style2 text-center wow zoomInUp xs-margin-bottom-ten">
                         <img src="images/employee/kiki.png" alt=""/>
                         <span class="name black-text">Kiki - Staff</span>
                     </div>
                     <!-- end testimonials item -->
                     <!-- testimonials item -->
-                    <div class="col-md-4 col-sm-4 testimonial-style2 text-center wow zoomInUp">
+                    <div class="col-md-4 col-sm-4 testimonial-style2 text-center wow zoomInUp xs-margin-bottom-ten">
                         <img src="images/employee/ndaru.png" alt=""/>
                         <span class="name black-text">Ndaru Andrianto - Staff</span>
                     </div>
                     <!-- end testimonials item -->
                     <!-- testimonials item -->
-                    <div class="col-md-4 col-sm-4 testimonial-style2 text-center wow zoomInUp">
+                    <div class="col-md-4 col-sm-4 testimonial-style2 text-center wow zoomInUp xs-margin-bottom-ten">
                         <img src="images/employee/rizki.png" alt=""/>
                         <span class="name black-text">Rizky Ramadhan - Staff</span>
                     </div>
@@ -862,85 +827,7 @@
                 </div>
             </div>
         </section>
-        <!-- end key person section -->
-        <!-- testimonial section -->
-        <section id="testimonials" class="border-bottom">
-            <div class="container">
-                <div class="row">
-                    <!-- testimonials item -->
-                    <div class="col-md-4 col-sm-4 testimonial-style2 text-center wow zoomInUp xs-margin-bottom-ten">
-                        <img src="images/testimonial-1.jpg" alt=""/>
-                        <p class="center-col width-90">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley.</p>
-                        <span class="name black-text">Alexander Smith - Google</span>
-                        <i class="fa fa-quote-left small-icon yellow-text display-block margin-five no-margin-bottom"></i>
-                    </div>
-                    <!-- end testimonials item -->
-                    <!-- testimonials item -->
-                    <div class="col-md-4 col-sm-4 testimonial-style2 text-center wow zoomInUp xs-margin-bottom-ten">
-                        <img src="images/testimonial-2.jpg" alt=""/>
-                        <p class="center-col width-90">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley.</p>
-                        <span class="name black-text">Herman Miller - Apple</span>
-                        <i class="fa fa-quote-left small-icon yellow-text display-block margin-five no-margin-bottom"></i>
-                    </div>
-                    <!-- end testimonials item -->
-                    <!-- testimonials item -->
-                    <div class="col-md-4 col-sm-4 testimonial-style2 text-center wow zoomInUp no-margin-top">
-                        <img src="images/testimonial-3.jpg" alt=""/>
-                        <p class="center-col width-90">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley.</p>
-                        <span class="name black-text">Bryan Jonhson - Yahoo</span>
-                        <i class="fa fa-quote-left small-icon yellow-text display-block margin-five no-margin-bottom"></i>
-                    </div>
-                    <!-- end testimonials item -->
-                </div>
-            </div>
-        </section>
-        <!-- end testimonial section -->
-        
-        <!-- approach section -->
-        <section id="history" class="approach bg-black wow fadeIn">
-            <div class="container">
-                <div class="row">
-                    <div>
-                        <h5 class="text-large white-text margin-seven-bottom text-center">History Of Aelyon</h5>
-                    </div>
-                </div>
-                <div class="row">
-                    <div id="approach-slider" class="owl-carousel owl-theme light-pagination bottom-pagination">
-                        <!-- slider item -->
-                        <div class="item margin-ten no-margin-top">
-                            <div class="text-center margin-four wow fadeIn sm-margin-bottom-ten" data-wow-duration="300ms"><i class="icon-map medium-icon white-text"></i><h5 class="white-text margin-four no-margin-bottom xs-margin-top-five">Founding</h5><h5 class="white-text margin-three no-margin-bottom xs-margin-top-three">2016</h5><span class="approach-details">David and Ahmad met for the first time.<br> They decied to found a company together</span></div>
-                        </div>
-                        <!-- end slider item -->
-                        <!-- slider item -->
-                        <div class="item margin-ten no-margin-top">
-                            <div class="text-center margin-four wow fadeIn sm-margin-bottom-ten" data-wow-duration="600ms"><i class="icon-anchor medium-icon white-text"></i><h5 class="white-text margin-four no-margin-bottom xs-margin-top-five">Aquaculture</h5><h5 class="white-text margin-three no-margin-bottom xs-margin-top-three">2017 - 2018</h5><span class="approach-details">Aelyon very first venture, using Recirculating Aquaculture System they amazed Batam’s fishery <br>community and made pretty good sales for<br> almost a year</span></div>
-                        </div>
-                        <!-- end slider item -->
-                        <!-- slider item -->
-                        <div class="item margin-ten no-margin-top">
-                            <div class="text-center margin-four wow fadeIn sm-margin-bottom-ten" data-wow-duration="900ms"><i class="icon-megaphone medium-icon white-text"></i><h5 class="white-text margin-four no-margin-bottom xs-margin-top-five">Downfall</h5><h5 class="white-text margin-three no-margin-bottom xs-margin-top-three">2018</h5><span class="approach-details">Due to lack of managerial skill and cut off<br> by buyers due to the drop of catfishes demand<br> they decided to lay off</span></div>
-                        </div>
-                        <!-- end slider item -->
-                        <!-- slider item -->
-                        <div class="item margin-ten no-margin-top">
-                            <div class="text-center margin-four wow fadeIn" data-wow-duration="1200ms"><i class="icon-book-open medium-icon white-text"></i><h5 class="white-text margin-four no-margin-bottom xs-margin-top-five">Learning</h5><h5 class="white-text margin-three no-margin-bottom xs-margin-top-three">2018 - Now</h5><span class="approach-details">David and Ahmad remained in contact but<br> they agreed to taketime to evaluate their<br> failure and learn from it for a greater good</span></div>
-                        </div>
-                        <!-- end slider item -->
-                        <!-- slider item -->
-                        <div class="item margin-ten no-margin-top">
-                            <div class="text-center margin-four sm-margin-bottom-ten"><i class="icon-map-pin medium-icon white-text"></i><h5 class="white-text margin-four no-margin-bottom xs-margin-top-five">Re-Group</h5><h5 class="white-text margin-three no-margin-bottom xs-margin-top-three">2019</h5><span class="approach-details">David and Ahmad met Fredian. Fredian agreed<br> to join Aelyon and they finally Refounded<br> Aelyon with new direction</span></div>
-                        </div>
-                        <!-- end slider item -->
-                        <!-- slider item -->
-                        <div class="item margin-ten no-margin-top">
-                            <div class="text-center margin-four sm-margin-bottom-ten"><i class="icon-speedometer medium-icon white-text"></i><h5 class="white-text margin-four no-margin-bottom xs-margin-top-five">Running</h5><h5 class="white-text margin-three no-margin-bottom xs-margin-top-three">Now</h5><span class="approach-details">To this day, Aelyon has served both government<br> and private enterprise on digitalize and automate<br> their business operation with competitive rate.</span></div>
-                        </div>
-                        <!-- end slider item -->
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- end approach section -->
+        <!-- end key person section -->       
         <!-- new project section -->
         <section id="new-project" class="new-project wow fadeIn">
             <div class="container">

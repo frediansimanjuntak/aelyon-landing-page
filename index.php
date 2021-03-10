@@ -734,7 +734,7 @@
                             <div class="key-person-details">
                                 <span class="person-name black-text">David Ricardo</span> <span class="person-post">Founder and CEO</span>
                                 <div class="separator-line bg-yellow"></div>
-                                <div class="person-social"><a href="#"><i class="fa fa-facebook"></i></a><a href="#"><i class="fa fa-linkedin"></i></a><a href="#"><i class="fa fa-instagram"></i></a></div>
+                                <div class="person-social"><a href="https://www.facebook.com/david.ricardo.393"><i class="fa fa-facebook"></i></a><a href="https://www.linkedin.com/in/david-ricardo-534627165/"><i class="fa fa-linkedin"></i></a><a href="https://www.instagram.com/wackodavid/"><i class="fa fa-instagram"></i></a></div>
                                 <p>An ambitious generalist and passionate young entrepreneur. Very versatile when it comes to deal with corporation issues, industrial relation problems, even STEM . David always strives to challenge himself and always passionate to make something different. He even left the college because college was too boring for him. As an artist, he is also a wonderful musician.</p>
                             </div>
                         </div>
@@ -747,7 +747,7 @@
                             <div class="key-person-details">
                                 <span class="person-name black-text">Ahmad Badawi</span> <span class="person-post">Founder and COO</span>
                                 <div class="separator-line bg-yellow"></div>
-                                <div class="person-social"><a href="#"><i class="fa fa-facebook"></i></a><a href="#"><i class="fa fa-linkedin"></i></a><a href="#"><i class="fa fa-instagram"></i></a></div>
+                                <div class="person-social"><a href="https://www.facebook.com/ahmadbadawi.kasyfurrahman"><i class="fa fa-facebook"></i></a><a href="https://www.linkedin.com/in/ahmadbadawikr/"><i class="fa fa-linkedin"></i></a><a href="https://www.instagram.com/ahmadbadawikr/"><i class="fa fa-instagram"></i></a></div>
                                 <p>An experienced venture leader, capable of developing both technical and economic business decisions in a fast and reliable manner. Have experience in leading a diverse group of people to achieve company goals by providing strategic direction, diverse perspectives, and positive leadership. A versatile and brutal fast learner, do-whatever-it-takes type. Passionate in digital transformation at industrial enterprises using the application of deep technology.</p>
                             </div>
                         </div>
@@ -760,7 +760,7 @@
                             <div class="key-person-details">
                                 <span class="person-name black-text">Fredian Simanjuntak</span> <span class="person-post">Founder and CTO</span>
                                 <div class="separator-line bg-yellow"></div>
-                                <div class="person-social"><a href="#"><i class="fa fa-facebook"></i></a><a href="#"><i class="fa fa-linkedin"></i></a><a href="#"><i class="fa fa-instagram"></i></a></div>
+                                <div class="person-social"><a href="https://www.facebook.com/frediansimanjuntak"><i class="fa fa-facebook"></i></a><a href="https://www.linkedin.com/in/fredian-simanjuntak/"><i class="fa fa-linkedin"></i></a><a href="https://www.instagram.com/frediannn/"><i class="fa fa-instagram"></i></a></div>
                                 <p>An experienced developer for 6 years to this day. Has been working in various startup and tech companies in the country even international tech companies. He also an educator and currently serving as associate lecturer in Batam International University in Computer Science Department.</p>
                             </div>
                         </div>

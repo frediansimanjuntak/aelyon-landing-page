@@ -719,10 +719,10 @@
                 <div class="row">
                     <!-- section title -->
                     <div class="col-md-12 text-center">
-                        <h3 class="section-title">Team</h3>
+                        <h3 class="section-title padding-five">Team</h3>
                     </div>
                     <!-- end section title -->
-                    <div class="col-md-5 col-sm-10 center-col text-center margin-six wow fadeIn">
+                    <div class="col-md-5 col-sm-10 center-col text-center padding-three wow fadeIn">
                         <h4 class="gray-text">We are a multi-discipline design studio with an extensive network of the finest talent, allowing us to build the perfect team to respond to your brief.</h4>
                     </div>
                 </div>

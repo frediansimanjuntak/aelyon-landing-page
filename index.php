@@ -913,15 +913,6 @@
                         </ul>
                         <!-- end link -->
                     </div>
-                    <div class="col-md-6 col-sm-12 footer-social text-right sm-text-center">
-                        <!-- social media link -->
-                        <a target="_blank" href="https://www.facebook.com/"><i class="fa fa-facebook"></i></a>
-                        <a target="_blank" href="https://twitter.com/"><i class="fa fa-twitter"></i></a>
-                        <a target="_blank" href="https://plus.google.com"><i class="fa fa-google-plus"></i></a>
-                        <a target="_blank" href="https://www.youtube.com/"><i class="fa fa-youtube"></i></a>
-                        <a target="_blank" href="https://www.linkedin.com/"><i class="fa fa-linkedin"></i></a>
-                        <!-- end social media link -->
-                    </div>
                 </div>
             </div>
             <div class="container-fluid bg-dark-gray footer-bottom">

@@ -101,11 +101,6 @@
                                 <!-- end menu item -->
                                 <!-- menu item -->
                                 <li class="dropdown panel">
-                                    <a href="#history">History <i class="fa fa-angle-down"></i></a>
-                                </li>
-                                <!-- end menu item -->
-                                <!-- menu item -->
-                                <li class="dropdown panel">
                                     <a href="#contact">Contact Us <i class="fa fa-angle-down"></i></a>
                                 </li>
                                 <!-- end menu item -->

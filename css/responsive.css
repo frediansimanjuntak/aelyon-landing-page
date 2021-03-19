@@ -80,8 +80,8 @@
     /*  key person   */
     .key-person { max-height: 580px; }
     .title-large { line-height: 36px !important; font-size: 26px !important }
-    #key-person .owl-subtitle { display: block; line-height: 26px; margin: 10% 0 13%; }
-    #key-person .xs-display-none { display: none; }
+    #teams .owl-subtitle { display: block; line-height: 26px; margin: 10% 0 13%; }
+    #teams .xs-display-none { display: none; }
 
     /*  services   */
     .services-main { padding: 4% 1% 4% 3%; }
@@ -828,7 +828,7 @@
     /*  key person   */
     .key-person-details { padding: 32px 10px 10px; }
     .key-person { max-height: 100%; }
-    #key-person .col-xs-4 {width:100%}
+    #teams .col-xs-4 {width:100%}
 
     /*  blog  */
     #blog .col-sm-4 { margin-bottom: 15px; }
@@ -1320,7 +1320,7 @@
     .services-sub-section { width: 100%; }
 
     /*  key person   */
-    #key-person .col-xs-4 { width: 100%; }
+    #teams .col-xs-4 { width: 100%; }
     .key-person-details { bottom: 115px; }
     .key-person:hover .key-person-details { bottom: 200px; }
     .key-person { max-height: 430px; max-width: 274px; margin: 0 auto; }

@@ -714,16 +714,16 @@
         </section>
         <!-- end highlight section -->
         <!-- key person section -->
-        <section id="teams" class="wow fadeIn no-padding-bottom">
+        <section id="teams" class="wow fadeIn">
             <div class="container">
                 <div class="row">
                     <!-- section title -->
                     <div class="col-md-12 text-center">
-                        <h3 class="section-title padding-five">Team</h3>
+                        <h3 class="section-title no-padding-bottom">Head Team</h3>
                     </div>
                     <!-- end section title -->
-                    <div class="col-md-5 col-sm-10 center-col text-center padding-three wow fadeIn">
-                        <h4 class="gray-text">We are a multi-discipline design studio with an extensive network of the finest talent, allowing us to build the perfect team to respond to your brief.</h4>
+                    <div class="col-md-5 col-sm-10 center-col text-center margin-six wow fadeIn">
+                        <h4 class="gray-text">We are a multi-discipline software company with an extensive network of the finest talent, allowing us to build the perfect team to respond to your brief. </h4>
                     </div>
                 </div>
                 <div class="row margin-six">
@@ -766,11 +766,38 @@
                         </div>
                     </div>
                     <!-- end key person item -->
+                    <!-- key person item -->
+                    <div class="col-md-4 col-xs-4 text-center wow fadeInUp" data-wow-duration="900ms">
+                        <div class="key-person">
+                            
+                        </div>
+                    </div>
+                    <!-- end key person item -->
+                    <!-- key person item -->
+                    <div class="col-md-4 col-xs-4 text-center wow fadeInUp" data-wow-duration="900ms">
+                        <div class="key-person">
+                            <div class="key-person-img"><img src="images/vincent.png" alt=""></div>
+                            <div class="key-person-details">
+                                <span class="person-name black-text">Vincent Lee</span> <span class="person-post">Tech Advisor</span>
+                                <div class="separator-line bg-yellow"></div>
+                                
+                                <p>University of California Computer Science and Electrical Engineering graduate. He spent 12 years in Silicon Valley as an engineer in various military grade manufacturing for the US Military. He decided to join along with Aelyon because of the suitability of his vision and Aelyon's.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- end key person item -->
+
+                    <!-- key person item -->
+                    <div class="col-md-4 col-xs-4 text-center wow fadeInUp" data-wow-duration="900ms">
+                        <div class="key-person">
+                            
+                        </div>
+                    </div>
+                    <!-- end key person item -->
                 </div>
             </div>
         </section>
         <!-- end key person section -->
-        <!-- key person section -->
         <section id="teams" class="wow fadeIn border-bottom">
             <div class="container">                
                 <div class="row no-padding-bottom">

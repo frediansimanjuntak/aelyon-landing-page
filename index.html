@@ -2,10 +2,10 @@
 <html class="no-js" lang="en">
     <head>
         <title>AELYON</title>
-        <meta name="description" content="H-Code - A premium portfolio template from ThemeZaa">
-        <meta name="keywords" content="">
+        <meta name="description" content="Aelyon Software House - Excellence in Harmony Partnership">
+        <meta name="keywords" content="aelyon, software house, partnership, excellent partnership, software company, technology, tech addict, web developer, mobile developer, indonesia, batam, yogyakarta, jakarta, medan, bali">
         <meta charset="utf-8">
-        <meta name="author" content="ThemeZaa">
+        <meta name="author" content="aelyon-team">
         <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1" />
         <!-- favicon -->
         <link rel="shortcut icon" href="images/aelyon-icon-light.png">

@@ -776,12 +776,12 @@
                     <!-- key person item -->
                     <div class="col-md-4 col-xs-4 text-center wow fadeInUp" data-wow-duration="900ms">
                         <div class="key-person">
-                            <div class="key-person-img"><img src="images/vincent.png" alt=""></div>
+                            <div class="key-person-img"><img src="images/vincent-2.png" alt=""></div>
                             <div class="key-person-details">
                                 <span class="person-name black-text">Vincent Lee</span> <span class="person-post">Tech Advisor</span>
                                 <div class="separator-line bg-yellow"></div>
                                 
-                                <p>University of California Computer Science and Electrical Engineering graduate. He spent 12 years in Silicon Valley as an engineer in various military grade manufacturing for the US Military. He decided to join along with Aelyon because of the suitability of his vision and Aelyon's.</p>
+                                <p>UC Berkeley Computer Science and Electrical Engineering graduate. He spent 12 years in Silicon Valley as an engineer in various military grade manufacturing for the US Military. He decided to join along with Aelyon because of the suitability of his vision and Aelyon's.</p>
                             </div>
                         </div>
                     </div>
